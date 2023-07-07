@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O que é Ethereum | PIC Academy</title>
+    <link rel="stylesheet" href="discoverStyle.css">
+    <script src="../../app.js"></script>
+    <link rel="icon" type="image/x-icon" href="../../../images/PICLogo.png">
+</head>
+
+
+<body>
+
+    <header class="header">
+        <a href="../../../src/index.html"> <img src="../../../images/CryptoPICLogo.png"alt="home"></a>
+        
+        <div class="mobileMenu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+       </div>
+
+        <nav class="contentNav">
+            <ul class="menu">
+                <li><a href="../../coins.html">Criptomoedas</a></li>
+                <li><a href="../../academy.html">Academy</a></li>
+                <li><a href="../../academy/glossary.html">Glossary</a></li>
+                <li><a href="../../news.html">Notícias</a></li>
+            </ul>
+        </nav>
+
+        <nav class="searchSocialNav">
+            <div class="search" id="search_container">
+                <input type="text" placeholder="Pesquisar" id='search'> 
+                <div class="searchBox" id="search_box">
+                
+                </div>   
+    
+                <i class="searchIconButton">
+                    <?xml version="1.0" ?><svg class="searchIconSVG" id="search_icon" height="26px" version="1.1" viewBox="0 0 32 32" width="26px" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns:xlink="http://www.w3.org/1999/xlink"><title/><desc/><defs/><g fill="none" fill-rule="evenodd" stroke-width="1.2"><g fill="#929292" ><path d="M19.4271164,20.4271164 C18.0372495,21.4174803 16.3366522,22 14.5,22 C9.80557939,22 6,18.1944206 6,13.5 C6,8.80557939 9.80557939,5 14.5,5 C19.1944206,5 23,8.80557939 23,13.5 C23,15.8472103 22.0486052,17.9722103 20.5104077,19.5104077 L26.5077736,25.5077736 C26.782828,25.782828 26.7761424,26.2238576 26.5,26.5 C26.2219324,26.7780676 25.7796227,26.7796227 25.5077736,26.5077736 L19.4271164,20.4271164 L19.4271164,20.4271164 Z M14.5,21 C18.6421358,21 22,17.6421358 22,13.5 C22,9.35786417 18.6421358,6 14.5,6 C10.3578642,6 7,9.35786417 7,13.5 C7,17.6421358 10.3578642,21 14.5,21 L14.5,21 Z" id="search"/></g></g></svg>
+                </i>
+                
+                
+    
+            </div>
+    
+            <div class="social">
+                    
+                <div class="twitter">
+                    <a href="https://twitter.com/Crypto_PIC_" target="_blank">
+                        <?xml version="1.0" ?><svg height="26px" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="26px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M448,512l-384,0c-35.328,0 -64,-28.672 -64,-64l0,-384c0,-35.328 28.672,-64 64,-64l384,0c35.328,0 64,28.672 64,64l0,384c0,35.328 -28.672,64 -64,64Z" id="Dark_Blue" style="fill:#1da1f2;fill-rule:nonzero;"/><path d="M196.608,386.048c120.704,0 186.752,-100.096 186.752,-186.752c0,-2.816 0,-5.632 -0.128,-8.448c12.8,-9.216 23.936,-20.864 32.768,-34.048c-11.776,5.248 -24.448,8.704 -37.76,10.368c13.568,-8.064 23.936,-20.992 28.928,-36.352c-12.672,7.552 -26.752,12.928 -41.728,15.872c-12.032,-12.8 -29.056,-20.736 -47.872,-20.736c-36.224,0 -65.664,29.44 -65.664,65.664c0,5.12 0.64,10.112 1.664,14.976c-54.528,-2.688 -102.912,-28.928 -135.296,-68.608c-5.632,9.728 -8.832,20.992 -8.832,33.024c0,22.784 11.648,42.88 29.184,54.656c-10.752,-0.384 -20.864,-3.328 -29.696,-8.192l0,0.896c0,31.744 22.656,58.368 52.608,64.384c-5.504,1.536 -11.264,2.304 -17.28,2.304c-4.224,0 -8.32,-0.384 -12.288,-1.152c8.32,26.112 32.64,45.056 61.312,45.568c-22.528,17.664 -50.816,28.16 -81.536,28.16c-5.248,0 -10.496,-0.256 -15.616,-0.896c28.928,18.432 63.488,29.312 100.48,29.312" id="Logo__x2014__FIXED" style="fill:#fff;fill-rule:nonzero;"/></g></svg>
+
+                    </a>
+                </div>
+
+                <div class="instagram">
+                    <a href="https://www.instagram.com/crypto_pic_/" target="_blank">
+                        <?xml version="1.0" ?><svg height="32px" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;" version="1.1" viewBox="0 0 24 24" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><rect height="32px" id="Artboard10" style="fill:none;" width="32px" x="0" y="0"/><path d="M22,7c0,-2.761 -2.239,-5 -5,-5c-3.054,0 -6.946,0 -10,0c-2.761,0 -5,2.239 -5,5c0,3.054 0,6.946 0,10c0,2.761 2.239,5 5,5c3.054,0 6.946,0 10,0c2.761,0 5,-2.239 5,-5c0,-3.054 0,-6.946 0,-10Z" style="fill:url(#_Radial1);"/><path d="M14.958,5.005c2.091,0.02 4.016,1.815 4.037,4.037c0.007,1.972 0.007,3.944 0,5.916c-0.02,2.083 -1.815,4.016 -4.037,4.037c-1.972,0.007 -3.944,0.007 -5.916,0c-2.092,-0.02 -4.016,-1.815 -4.037,-4.037c-0.007,-1.972 -0.007,-3.944 0,-5.916c0.019,-2.093 1.81,-4.016 4.037,-4.037c1.972,-0.007 3.944,-0.007 5.916,0Zm-5.889,0.945c-1.623,0.005 -3.103,1.412 -3.119,3.098c-0.006,1.968 -0.006,3.936 0,5.904c0.015,1.605 1.388,3.082 3.098,3.098c1.968,0.006 3.936,0.006 5.904,0c1.609,-0.015 3.082,-1.388 3.098,-3.098c0.006,-1.968 0.006,-3.936 0,-5.904c-0.015,-1.616 -1.415,-3.082 -3.098,-3.098c-1.961,-0.006 -3.922,0 -5.883,0Z" style="fill:#fff;fill-rule:nonzero;"/><path d="M12.024,8.5c1.618,0.015 3.126,1.263 3.422,2.862c0.211,1.14 -0.187,2.376 -1.027,3.178c-0.935,0.89 -2.382,1.208 -3.622,0.754c-1.386,-0.507 -2.361,-1.968 -2.296,-3.448c0.079,-1.768 1.641,-3.34 3.499,-3.346c0.008,0 0.016,0 0.024,0Zm-0.04,0.947c-1.155,0.011 -2.244,0.887 -2.484,2.025c-0.243,1.151 0.419,2.428 1.506,2.887c1.187,0.502 2.72,-0.061 3.293,-1.233c0.593,-1.211 0.034,-2.856 -1.218,-3.441c-0.341,-0.159 -0.72,-0.239 -1.097,-0.238Z" style="fill:#fff;fill-rule:nonzero;"/><path d="M16.5,8.227c0,-0.193 -0.077,-0.378 -0.213,-0.514c-0.136,-0.136 -0.321,-0.213 -0.514,-0.213c-0.015,0 -0.031,0 -0.046,0c-0.193,0 -0.378,0.077 -0.514,0.213c-0.136,0.136 -0.213,0.321 -0.213,0.514c0,0.008 0,0.015 0,0.023c0,0.199 0.079,0.39 0.22,0.53c0.14,0.141 0.331,0.22 0.53,0.22c0,0 0,0 0,0c0.414,0 0.75,-0.336 0.75,-0.75c0,-0.008 0,-0.015 0,-0.023Z" style="fill:#fff;"/><defs><radialGradient cx="0" cy="0" gradientTransform="matrix(27.933,0,0,27.933,2,21.5)" gradientUnits="userSpaceOnUse" id="_Radial1" r="1"><stop offset="0" style="stop-color:#ff8100;stop-opacity:1"/><stop offset="0.19" style="stop-color:#ff7209;stop-opacity:1"/><stop offset="0.32" style="stop-color:#f55e16;stop-opacity:1"/><stop offset="0.48" style="stop-color:#d92938;stop-opacity:1"/><stop offset="1" style="stop-color:#9100ff;stop-opacity:1"/></radialGradient></defs></svg>
+                    </a>
+                </div>
+                
+            </div>
+    
+        </nav>
+
+    </header>
+
+    
+    <div class="container">
+
+        <div class="content">
+
+            <section>
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a class="nav-menu-item2" href="../../academy.html">PIC | Academy</a></li>
+                        <li><a class="nav-menu-item" href="../glossary.html">Glossary</a></li>
+                        <li><a class="nav-menu-item" href="../trading.html">Trading</a></li>
+                        <li><a class="nav-menu-item" href="../guide.html">Guide</a></li>
+                        <li><a class="nav-menu-item" href="../expedition.html">Expedition</a></li>
+                        <li><a class="nav-menu-item1" href="../discover.html">Discover</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="advertisement">
+        
+            </section>
+
+            <section>
+                <nav>
+                    <ul class="nav-bar">
+                        <li><a class="nav-bar-item" href="../discover.html">Discover</a></li>
+                        <li><a class="nav-bar-item1" href="../discover/ethereum-discover.html">Ethereum (ETH)</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <div class="main-content">
+
+                <div class="color-line" id="bg-gray">
+
+                </div>
+
+                <div class="main-text">
+                    <h1 class="main-text-title">O que é Ethereum (ETH)?
+                        <div class="main-text-section"> <p class="nav-menu-item1" id="bg-txt-gray">Discover</p></div>
+                    </h1>   
+                    <div class="main-text-details">
+                        <a href="../academyBlockchain/academyBlockchain.html"><p class="tag">Blockchain</p></a>
+                        <a href="../academyEthereum/academyEthereum.html"><p class="tag">Ethereum</p></a>
+                        <p class="tag">Publicado em 19/05/2022</p>
+                        <p class="info" id="bg-txt-gray">40m</p>
+                    </div>        
+                </div>
+
+                <section class="mobileAdvertisement">
+                 
+                </section>
+
+                <article class="main-article">
+
+                    <h2 class="article-header">Capítulos</h2>
+                    <p class="article-text">
+                        <ul class="chapterSection">
+                            <li><span>-</span><a href="#capitulo1"><h3 class="chapter">Fundamentos da Ethereum</h3></a></li>
+                            <li><span>-</span><a href="#capitulo2"><h3 class="chapter">De onde vem o Ether?</h3></a></li>
+                            <li><span>-</span><a href="#capitulo3"><h3 class="chapter">Primeiros passos com Ethereum</h3></a></li>
+                            <li><span>-</span><a href="#capitulo4"><h3 class="chapter">Escalabilidade, ETH 2.0 e o Futuro da Ethereum</h3></a></li>
+                            <li><span>-</span><a href="#capitulo5"><h3 class="chapter">Ethereum e Finanças Descentralizadas (DeFi)</h3></a></li>
+                            <li><span>-</span><a href="#capitulo6"><h3 class="chapter">Participando na rede Ethereum</h3></a></li>
+                        </ul>
+                    </p>
+
+                    <h2 id="capitulo1" class="article-header">Capítulo 1 
+                        <br><small>Fundamentos da Ethereum</small></h2>
+
+                        <p class="article-text"> Conteúdos
+                            <ul class="chapterSection">
+                                <li><span>-</span><a href="#introducaoAoEthereum"><h4 class="chapter">Introdução ao Ethereum</h4></a></li>
+                                <li><span>-</span><a href="#ethereumXEther(ETH)"><h4 class="chapter">Ethereum x Ether (ETH)</h4></a></li>
+                                <li><span>-</span><a href="#oQueTornaAEthereumValiosa"><h4 class="chapter">O que torna a Ethereum valiosa?</h4></a></li>
+                                <li><span>-</span><a href="#oQueEBlockchain"><h4 class="chapter">O que é Blockchain?</h4></a></li>
+                                <li><span>-</span><a href="#qualADiferencaDeEthereumEBitcoin"><h4 class="chapter">Qual a diferença de Ethereum e Bitcoin?</h4></a></li>
+                                <li><span>-</span><a href="#comoAEthereumFunciona"><h4 class="chapter">Como a Ethereum fuciona?</h4></a></li>
+                                <li><span>-</span><a href="#oQueSaoSmartContracts"><h4 class="chapter">O que são Smart Contracts?</h4></a></li>
+                                <li><span>-</span><a href="#quemCriouOEthereum"><h4 class="chapter">Quem criou o Ethereum?</h4></a></li>
+                                <li><span>-</span><a href="#comoFoiADistribuicaoDeEther"><h4 class="chapter">Como foi a distribuição de Ether?</h4></a></li>
+                                <li><span>-</span><a href="#theDaoEOEthereumClassic"><h4 class="chapter">"The DAO" e o Ethereum Classic</h4></a></li>
+                            </ul>
+                        </p>
+
+                    <h2 class="article-header" id="introducaoAoEthereum">Introdução</h2>
+                    <p class="article-text">
+                        Ethereum é uma plataforma descentralizada que não roda em apenas um aparelho, mas sim em milhares de aparelhos simultaneamente espalhados no mundo todo, isso significa que a Ethereum não tem dono.
+                    </p>
+
+                    <p class="article-text">
+                        Assim como o <a href="./bitcoin-discover.html">Bitcoin</a>, a Ethereum possibilita a transferência de dinheiro digital (criptomoedas). É possível também lançar aplicativos próprios e interagir com aplicativos já existentes no ecossistema da Ethereum
+                    </p> <br>
+
+                    <p class="article-text">
+                        Em resumo, a idéia principal da Ethereum é possibilitar desenvolvedores lançarem aplicações em uma rede distribuída ao invés utilizarem servidores <a href="../glossary/centralizado-glossary.html">centralizados</a>. Isso significa que, na teoria, essas aplicações não podem ser derrubadas ou censuradas.
+                    </p>
+
+                    <h2 class="article-header" id="ethereumXEther(ETH)">Ethereum x Ether (ETH)</h2>
+                    <p class="article-text">
+                        As moedas utilizadas na rede Ethereum por mais intuitivo que pareça não se chamam Ethereums. Na verdade Ethereum é o nome do protocolo, enquanto a moeda utilizada para impulsionar a 
+                        rede chama-se Ether (ou ETH)
+                        
+                    </p>
+                    
+                    <h2 class="article-header" id="oQueTornaAEthereumValiosa">O que torna a Ethereum valiosa?</h2>
+                    <p class="article-text">
+                        Vimos anteriormente que a idéia da Ethereum é possibilitar aplicações através de sistemas distribuídos.  Assim, programas não poderão ser adulterados por terceiros. 
+                        
+                        
+                    </p><br>
+
+                    <p class="article-text">
+                        Depois de adicionados a base de dados da Ethereum (Conhecida como <a href="../glossary/blockchain-glossary.html">Blockchain</a>), sistemas podem ser programados de forma a não ser possível editá-los. Essa base de dados pode ser visualizada por qualquer um e qualquer usuário pode auditar o sistema antes de interagir com ele.
+                    </p><br>
+
+                    <p class="article-text">
+                        Isso significa que qualquer pessoa em qualquer lugar pode desenvolver e lançar aplicações que não podem ser desligadas. Outro ponto interessante é que por sua moeda nativa, Ether, servir como <a href="../glossary/reserva-de-valor-glossary.html">reserva de valor</a>, essas aplicações podem determinar condições de como valor é transferido. 
+                    </p><br>
+
+                    <p class="article-text">
+                        Os programas que fazem essas aplicações chamam-se <a href="../glossary/smart-contracts-glossary.html">Smart Contracts</a> e podem ser operados sem a necessidade de atividade humana.
+                    </p>
+
+                    <section class="advertisement">
+                   
+                    </section>
+                    <section class="mobileAdvertisement">
+                 
+                    </section>
+
+                    <h2 class="article-header" id="oQueEBlockchain">O que é Blockchain?</h2>
+                    <p class="article-text">
+                        Blockchain é a peça principal da Ethereum, sendo uma base de dados que guarda toda a informação do <a href="../glossary/protocolo-glossary.html">protocolo</a>. A Blockchain da Ethereum é muito similar à blockchain do <a href="./bitcoin-discover.html">Bitcoin</a> apesar das informações que são guardadas e a forma que são guardadas, serem um pouco diferente.
+                    </p><br>
+
+                    <p class="article-text">
+                       Pense na blockchain da Ethereum como um livro, onde você adiciona páginas continuamente, cada página desse livro possui informações sobre as transações, e são chamados de <a href="../glossary/bloco-glossary.html">bloco</a>. Caso queira adicionar um novo bloco é necessário ter um valor, onde mostra que esse bloco vem após um bloco anterior e não foi adicionado aleatoriamente no meio do livro.
+                    </p><br>
+
+                    <p class="article-text">
+                        Basicamente, é como se fosse o número da página de um livro que referencia uma página anterior. Ao olhar para uma nova página saberemos qual foi a página anterior por causa do seu número, e isso ocorre com os blocos também.
+                    </p><br>
+
+                    <p class="article-text">
+                        Se olharmos para o “bloco 6”, saberemos que o bloco anterior foi o “bloco 5”. E para fazer isso, utiliza-se do processo chamado Hashing.
+                    </p><br>
+
+                    <p class="article-text">
+                        Hashing pega toda a informação da nossa página (bloco) e retorna um valor único chamado de <a href="../glossary/hash-glossary.html">Hash</a>.  As chances de dois hashes possuírem o mesmo valor são absurdamente pequenas, e seu processo não pode ser feito reversamente, ou seja, é facilmente possível transformar informações em um hash, mas usar um hash para adquirir as informações é impossível. E é muito importante que seja dessa forma para o processo de <a href="../glossary/mineracao-glossary.html">mineração</a>, falaremos disso mais tarde.
+                    </p><br>
+
+                    <p class="article-text">
+                        Então com a <a href="../glossary/blockchain-glossary.html">Blockchain</a> possuímos um mecanismo que nos permite adicionar informações em blocos e juntar esses <a href="../glossary/bloco-genesis-glossary.html">blocos</a> de forma cronológica, esses blocos não podem ser alterados e nem adicionados em lugares indevidos. Toda a informação do bloco está visível (Em forma de <a href="../glossary/hash-glossary.html">hash</a>) para que caso seja adulterado todos os usuários da rede poderão perceber.
+                    </p><br>
+
+                    <p class="article-text">
+                        Blockchain é um mecanismo muito importante se não o mais importante no mundo de criptomoedas, ele permite que a informação na rede seja segura e sólida. Quer saber mais sobre o que são Blockchains e todas suas funcionalidades? <a href="../academyBlockchain/academyBlockchain.html">Acesse nosso guia de Blockchain.</a> 
+                    </p>
+
+                    <h2 class="article-header" id="qualADiferencaDeEthereumEBitcoin">Qual a diferença de Ethereum e Bitcoin?</h2>
+                    <p class="article-text">
+                        Bitcoin utiliza como base a tecnologia <a href="../glossary/blockchain-glossary.html">Blockchain</a> e outros incentivos financeiros para ser um sistema global de dinheiro digital, e introduziu sistemas inovadores que permitiram que usuários se comunicassem na rede sem um centralizador. Com cada usuário executando um programa no seu computador, <a href="./bitcoin-discover.html">Bitcoin</a> possibilitou uma base de dados financeira que seja <a href="../glossary/trustless-glossary.html">trustless</a> em um ambiente <a href="../glossary/descentralizado-glossary.html">descentralizado</a>.
+                    </p><br>
+
+                    <p class="article-text">
+                        Bitcoin é uma blockchain de primeira-geração. Não possuindo sistemas complexos, ou com uma boa escalabilidade, sendo intencionalmente inflexível. Porém, em questões de segurança, isso o torna extremamente forte. Por ser inflexível, não aceita muito bem aplicações que não sejam transferências de moeda, fazendo com que desenvolvedores optem por blockchain com mais funcionalidades.
+                    </p><br>
+
+                    <p class="article-text">
+                        As blockchains de segunda-geração, em comparação, são muito mais poderosas, possibilitam o desenvolvimento de aplicações dentro do seu ecossistema. A Ethereum oferece aos desenvolvedores a possibilidade de utilizarem seus códigos como quiserem para criar as chamadas <a href="../glossary/aplicacao-descentralizada-dapp-glossary.html">aplicações descentralizadas (DApp)</a>.
+                    </p><br>
+
+                    <p class="article-text">
+                        Ethereum foi a primeira blockchain de segunda-geração, e até hoje segue sendo a mais potente. Possui similaridades com o Bitcoin e traz muitas de suas funcionalidades, porém, ambas possuem diferenças, vantagens e desvantagens em diferentes aspectos.
+                    </p>
+
+                    <h2 class="article-header" id="comoAEthereumFunciona">Como a Ethereum funciona?</h2>
+                    <p class="article-text">
+                        Podemos definir a Ethereum como uma galeria de fotos, onde em todo momento temos um PrintScreen de como está o balanço de todas as contas e todos os <a href="../glossary/smart-contracts-glossary.html">smart contracts</a> da rede. Algumas ações causarão mudanças e será necessário que todos os <a href="../glossary/node-glossary.html">nodes</a> atualizem seus PrintScreen para o mais recente.
+                    </p><br>
+
+                    <p class="article-text">
+                        Os smart contracts que rodam na Ethereum são acionados por transações, sejam elas entre usuário, ou entre contratos. Quando um <a href="../glossary/node-glossary.html">node</a> (usuário da rede) envia uma transação a um contrato, todos os nodes rodam o contrato e guardam a resposta (PrintScreen mais recente). Isso se dá devido a Ethereum Virtual Machine (EVM), um sistema que converte smart contracts para instruções que o computador pode realizar.
+                    </p>
+
+                    <h2 class="article-header" id="oQueSaoSmartContracts">O que são Smart Contracts?</h2>
+                    <p class="article-text">
+                        Um <a href="../glossary/smart-contracts-glossary.html">Smart Contract</a> (ou contrato inteligente), é um código que se executa sozinho, sem ação humana, caso certas condições previamente estabelecidas sejam executadas. Pense como uma Máquina de Vendas, nelas contratos simples ocorrem, o usuário coloca dinheiro e em troca a máquina dispensa o produto que o usuário escolheu. Smart Contracts, seguem a mesma linha de raciocínio.    
+                    </p><br>
+
+                    <p class="article-text">
+                        Por exemplo, um contrato inteligente que tem a função pré estabelecida de mostrar um texto caso esse contrato receba certa quantidade de Ether, digamos 2 Ether.
+                    </p><br>
+
+                    <p class="article-text">
+                        Condição do contrato: Mostrar “ Olá, seja bem-vindo” quando 2 Ether serem enviados ao contrato. <br><br>
+                        <b>João</b> <span class="detailSpan">>></span> <b>Envia 2 Ether para o</b>  <span class="detailSpan">>>  </span> <b> Contrato;</b> <br><br>
+
+                       <b>Contrato</b> <span class="detailSpan">>></span> <b>Envia “Olá, seja bem-vindo” para</b>  <span class="detailSpan">>></span> <b> João;</b> <br><br> 
+
+                    </p>
+                    <p class="article-text">
+                        Na Ethereum, os desenvolvedores criam códigos com essas especificações que depois são lidos pela <a href="../glossary/ethereum-virtual-machine-evm-glossary.html">EVM</a>. Eles então tornam o contrato público ao enviá-lo para um <a href="../glossary/endereco-glossary.html">endereço</a> que registra o contrato. Após isso, qualquer um pode utilizar o contrato e executar as funções determinadas por ele. Contratos não podem ser excluídos, a não ser que uma condição específica para que isso ocorra tenha sido determinada pelo desenvolvedor.
+                    </p><br>
+
+                    <p class="article-text">
+                        Com o contrato em um endereço basta enviar 2 Ether (segundo o exemplo anterior) para esse endereço que o contrato será acionado, sendo rodado em todos os <a href="../glossary/node-glossary.html">nodes</a> da rede, validando se o pagamento foi realmente feito e assim, gravando a resposta na <a href="../glossary/blockchain-glossary.html">blockchain</a> (“Olá, seja bem-vindo”).
+                    </p><br>
+
+                    <p class="article-text">
+                        <a href="../glossary/smart-contracts-glossary.html">Smart Contracts</a> possibilitam aplicações muito mais sofisticadas e complexas, e o exemplo acima é uma das formas mais básicas de se explicar o poder de um smart contract.
+                    </p>
+
+                    <section class="advertisement">
+                      
+                    </section>
+                    <section class="mobileAdvertisement">
+                       
+                    </section>
+
+                    <h2 class="article-header" id="quemCriouOEthereum">Quem criou o Ethereum?</h2>
+                    <p class="article-text">
+                        Em 2008, um desenvolvedor (ou grupo de desenvolvedores) com o pseudônimo de <a href="../glossary/satoshi-nakamoto-glossary.html"></a> Satoshi Nakamoto, publicou em um blog o  Whitepaper do <a href="../glossary/">Bitcoin</a>, um sistema que mudaria como o dinheiro digital se comporta, e em 2013, um jovem programador chamado Vitalik Buterin, decidiu usar o conceito do Bitcoin e aplicá-lo em qualquer tipo de aplicação. Criando assim o Ethereum.
+                    </p><br>
+
+                    <p class="article-text">
+                       Sua primeira aparição foi em um blog com o título <i>Ethereum: The Ultimate Smart Contract and Decentralized Application Platform.</i> Buterin descreveu sua idéia para uma blockchain Turing-complete, um sistema <a href="../glossary/descentralizado-glossary.html">descentralizado</a> que poderia rodar qualquer aplicação.
+                    </p>
+
+                    <h2 class="article-header" id="comoFoiADistribuicaoDeEther">Como foi a distribuição de Ether?</h2>
+                    <p class="article-text">
+                        Ether lançou em 2015 com um supply inicial de 72 milhões de Ether, onde 50 milhões foram distribuídos em uma venda pública chamada de <a href="../glossary/initial-coin-offering-ico-glossary.html">Inital Coin Offering (ICO)</a>, onde aqueles que quisessem participar, poderiam comprar Ether com Bitcoin ou <a href="../glossary/moeda-fiduciaria-glossary.html">Moedas Fiduciárias</a>. O preço de lançamento do Ether foi de aproximadamente $0,31 e na data em que escrevemos esse artigo o preço já se encontra acima de $2.000,00
+                    </p>
+
+                    <h2 class="article-header" id="theDaoEOEthereumClassic">"The DAO" e o Ethereum Classic</h2>
+                    <p class="article-text">
+                        A Ethereum possibilitou que usuários da rede colaborassem entre si através da Internet de forma descentralizada, um exemplo disso são as <a href="../glossary/decentralized-autonomous-organization-dao-glossary.html">DAOs (Decentralized Autonomous Organization)</a>, entidades governadas por códigos de computadores. 
+                    </p><br>
+
+                    <p class="article-text">
+                        Um exemplo de organização assim foi “The DAO”, uma aplicação da rede Ethereum criada em 2016 sobre <a href="../glossary/smart-contracts-glossary.html">Smart Contracts</a> complexos que funcionava como uma plataforma autônoma de investimento de <a href="../glossary/capital-de-risco-glossary.html">capital de risco</a>. DAO tokens eram distribuídos em <a href="../glossary/initial-coin-offering-ico-glossary.html">ICOs</a> e aqueles que os possuíam eram capazes de realizar stake e tinham direito de voto.
+                    </p><br>
+
+                    <p class="article-text">
+                        Tempo depois de seu lançamento, atores maliciosos encontraram uma vulnerabilidade e retiraram cerca de 30% dos fundos que estavam na plataforma, vale lembrar, que naquela época a Ethereum não era tão grande como é hoje, e cera de 14% de todo o <a href="../glossary/circulating-supply-glossary.html">supply</a> de Ether estava travado na The DAO.
+                    </p><br>
+
+                    <p class="article-text">
+                        Após algumas conferências, decidiram separar a <a href="../glossary/blockchain-glossary.html">blockchain</a> da Ethereum em duas em um processo chamado Hard Fork. Em uma blockchain, as transações maliciosas foram revertidas para recuperar os fundos, sendo essa a rede utilizada hoje em dia na Ethereum, já a rede original, as transações não foram revertidas e é conhecida como <a href="../../cryptocurrencies/ethereum-classic/ethereum-classic.html">Ethereum Classic</a>.
+                    </p>
+
+                    <h2 id="capitulo2" class="article-header">Capítulo 2 
+                        <br>
+                        <small>De onde vem o Ether?</small>
+                    </h2>
+
+                        <p class="article-text"> Conteúdos:
+                            <ul class="chapterSection">
+                                <li><span>-</span><a href="#comoOEtherECriado"><h4 class="chapter">Como o Ether é criado?</h4></a></li>
+                                <li><span>-</span><a href="#comoFuncionaAMineracaoNaEthereum"><h4 class="chapter">Como funciona a mineração na Ethereum?</h4></a></li>
+                                <li><span>-</span><a href="#oQueEOGasDaEthereum"><h4 class="chapter">O que é o Gas da Ethereum?</h4></a></li>
+                                <li><span>-</span><a href="#gasLimit"><h4 class="chapter">Gas Limit</h4></a></li>
+                                <li><span>-</span><a href="#quantoTempoLevaParaUmBlocoSerMineradoNaEthereum"><h4 class="chapter">Quanto tempo leva para um bloco ser minerado na Ethereum?</h4></a></li>
+                                <li><span>-</span><a href="#oQueSaoTokensDaEthereum"><h4 class="chapter">O que são Tokens da Ethereum?</h4></a></li>
+                            </ul>
+                        </p>   
+                    
+                        <h2 class="article-header" id="comoOEtherECriado">Como o Ether é criado?</h2>
+                        <p class="article-text">
+                            Você já deve ter ouvido falar sobre o processo de <a href="../glossary/mineracao-glossary.html">mineração</a>, caso esteja familiarizado com <a href="./bitcoin-discover.html">Bitcoin</a>, sabe que minerar é um processo fundamental para manter a segurança e a constante atualização da <a href="../glossary/blockchain-glossary.html">Blockchain</a>. Na Ethereum é a mesma coisa, o protocolo recompensa com Ether os <a href="../glossary/mineradores-glossary.html">mineradores</a> que disponibilizam seu poder computacional para manter a rede ativa.
+                        </p><br>
+
+                        <p class="article-text">
+                            Em maio de 2022, o <a href="../glossary/circulating-supply-glossary.html">Circulating Supply</a>  de Ether é por volta de 120 milhões, e diferente do Bitcoin, que possui em sua essência o sistema <a href="../glossary/halving-glossary.html">Halving</a> e um max supply de 21 milhões de BTC, o Ether não possui um Max Supply definido. Como o objetivo da Ethereum é criar uma rede de <a href="../glossary/aplicacao-descentralizada-dapp-glossary.html">aplicações descentralizadas (DApps)</a>, não se sabe com clareza, se definir um <a href="../glossary/max-supply-glossary.html">max supply</a> é a melhor pedida pra rede, e essa é uma questão que segue aberta e é fortemente discutida.
+                        </p>
+
+                        <h2 class="article-header" id="comoFuncionaAMineracaoNaEthereum">Como funciona a mineração na Ethereum?</h2>
+                        <p class="article-text">
+                            Como visto antes, <a href="../glossary/mineracao-glossary.html">mineração</a> é fundamental para manter a rede segura e atualizada, além de permitir a sua funcionalidade sem que tenha um centralizador tomando as decisões. Na mineração, os <a href="../glossary/node-glossary.html">nodes</a> participantes (conhecidos como <a href="../glossary/mineradores-glossary.html">mineradores</a>) dedicam poder computacional de suas máquinas para criptografar dados.
+                        </p><br>
+
+                        <p class="article-text">
+                            O que eles estão fazendo na realidade é transformar as transações pendentes da blockchain, junto com mais alguns dados em um <a href="../glossary/hash-glossary.html">hash</a>, para que o <a href="../glossary/bloco-glossary.html">bloco</a>seja validado deve se encontrar o valor exato do hash desse bloco, e caso não seja feito com sucesso o minerador (ou no caso a sua máquina) pode mudar alguns dados e tentar novamente.
+                        </p><br>
+
+                        <p class="article-text">
+                            A competição na mineração é acirrada, e por isso, mineradores precisam ser capazes de transformar dados em hash o mais rápido possível, e uma métrica para definir isso é o <a href="../glossary/hash-rate-glossary.html">Hash Rate</a>, que define (geralmente por segundo) a quantidade de hash que é solucionada. Só é necessário que um minerador de toda a rede encontre o a solução, visto que depois é fácil para outros nodes checarem se isso é válido.
+                        </p><br>
+
+                        <p class="article-text">
+                            Como o exemplo que demos anteriormente, pense em um livro, e que estamos atualmente na página número 332:
+                        </p><br>
+
+                        <p class="article-text">
+                            A máquina gera um número aleatório de zero a 1 milhão, e segue gerando números aleatórios até que encontre o número exato da próxima página (nesse caso, 333). Todos os computadores da rede vão gerando esses números aleatórios e assim que um encontrar o número 333, todos saberão que o problema foi solucionado, e poderão validar se o problema foi realmente solucionado visto que na página (hash) 333 possui informações da página (hash) anterior, nesse caso 332. 
+                        </p><br>
+
+                        <p class="article-text">
+                            Após isso o jogo segue, e as máquinas passarão a buscar o próximo hash, em um “livro de páginas infinitas”.
+                        </p><br>
+
+                        <p class="article-text">
+                            Mas todo esse trabalho deve ser recompensado, afinal o <a href="../glossary/mineradores-glossary.html">minerador</a> está empregando grande esforço computacional para manter a rede viva. E é assim que novos Ether são gerados, a cada bloco novo gerado os mineradores recebem 2 novos Ether, além de todas as <a href="../glossary/taxa-de-transacao-glossary.html">taxas de transação</a> pagas pelos usuários da rede.
+                        </p>
+
+                        <section class="advertisement">
+                         
+                        </section>
+                        <section class="mobileAdvertisement">
+                       
+                        </section>
+
+                        <h2 class="article-header" id="oQueEOGasDaEthereum">O que é o Gas da Ethereum?</h2>
+                        <p class="article-text">
+                            Ao se executar programas na rede Ethereum, não estamos executando-os apenas na nossa máquina, mas sim em todas as máquinas do ecossistema da Ethereum. Se pensarmos no nosso exemplo do “Olá, seja bem-vindo” é algo bem simples certo, agora imagine um programa complexo sendo executado em todas as máquinas da rede.
+                        </p><br>
+
+                        <p class="article-text">
+                            Mas diversas pessoas utilizam da rede ao mesmo tempo, então como seria se dezenas de milhares de pessoas executassem programas complexo que também rodarão em todas as máquinas. Isso colocaria um grande peso e consumiria todos os recursos da rede, provavelmente resultando em um colapso.
+                        </p><br>
+
+                        <p class="article-text">
+                            Pensando nisso, para mitigar os riscos, a Ethereum introduziu o conceito de <a href="../glossary/gas-price-glossary.html">Gas</a>. É como se fosse o combustível da rede Ethereum, Assim como seu carro não anda sem combustível, <a href="../glossary/smart-contracts-glossary.html">contratos</a> não são executados sem Gas. Cada contrato para ser executado determina uma quantidade de Gas que deve ser paga pelo usuário, caso não tenha Gas suficiente, o contrato não será executado.
+                        </p><br>
+
+                        <p class="article-text">
+                            Basicamente se torna um mecanismo de taxas, taxas essas que são pagas aos mineradores por manter a rede com recursos e suprir essa demanda de poder computacional necessário para executar todos esses programas.
+                        </p><br>
+
+                        <p class="article-text">
+                            Quando você faz transações você paga o Gas em Ether, mas isso não quer dizer que são a mesma coisa. O preço do Gas varia e geralmente é definido pelos <a href="../glossary/mineradores-glossary.html">mineradores</a>. Caso a rede esteja congestionada, com muitas pessoas solicitando transações ao mesmo tempo, o preço médio de Gas tende a subir, ao contrário, em momentos com poucas transações, vemos o preço diminuir.
+                        </p><br>
+
+                        <p class="article-text">
+                            Mesmo que o preço do Gas varie, cada operação tem um preço fixo que é obrigatório, ou seja, contratos complexos que demandarão mais recursos da Ethereum terão um custo mais alto do que aqueles mais simples. Com isso, o Gas garante que a rede se mantenha estável cobrando a taxa apropriada para o usuário conforme quanto recurso da rede ele está consumindo. 
+                        </p><br>
+
+                        <p class="article-text">
+                            Gas geralmente custa uma fração do Ether chamada de <a href="../glossary/gwei-glossary.html">Gwei</a>, na qual 1 gwei corresponde 1 bilionésimo de um Ether. 
+                        </p>
+
+                        <h2 class="article-header" id="gasLimit">Gas Limit</h2>
+                        <p class="article-text">
+                            Ao fazer uma transação para um contrato, sua solicitação entra na rede e conforme o congestionamento, o preço e o tempo que levará para a solicitação ser executada serão alterados. Caso deseje que sua transação seja feita o mais rápido possível, pode-se definir um <a href="../glossary/gas-price-glossary.html">Gas Price</a> mais alto para incentivar os mineradores a priorizar a sua solicitação.
+                        </p><br>
+
+                        <p class="article-text">
+                            Com isso é possível definir também o <a href="../glossary/gas-limit-glossary.html">Gas Limit</a> que servirá para proteger caso algo dê errado e irá consumir mais Gas do que o planejado. Por exemplo, para essa transação que desejamos que ocorra o mais rápido possível definimos um limite na qual aceitamos pagar, e assim que esse valor limite de Gas é utilizado a operação irá parar. O contrato falhará mas isso impedirá que o usuário pague mais do que inicialmente tinha definido como seu limite.
+                        </p><br>
+
+                        <p class="article-text">
+                            Por mais confuso que isso seja, a maioria das <a href="../glossary/wallet-glossary.html">Wallets</a> já são preparadas para cuidar disso automaticamente, por mais que você possa também definir de forma manual. Em um resumo, Gas Price é o preço que você pagará para sua transação ocorrer, e que também determinará o quão rápido os mineradores realizarão sua transação, e o Gas Limit é o preço Maximo que você aceita pagar por isso.
+                        </p>
+
+                        <h2 class="article-header" id="quantoTempoLevaParaUmBlocoSerMineradoNaEthereum">Quanto tempo leva para um bloco ser minerado na Ethereum?</h2>
+                        <p class="article-text">
+                            O tempo médio que um novo bloco leva para ser adicionado a <a href="../glossary/blockchain-glossary.html">blockchain</a> é de 12 – 18 segundos. Mas com a transição para <a href="../glossary/proof-of-stake-pos-glossary.html">Proof of Stake (PoS)</a> que busca trazer, além de outras mudanças, uma maior velocidade na criação de novos blocos, esse tempo pode mudar.
+                        </p>
+
+                        <h2 class="article-header" id="oQueSaoTokensDaEthereum">O que são Tokens da Ethereum?</h2>
+                        <p class="article-text">
+                            Uma das funcionalidades da Ethereum que oferece poder as suas aplicações é a possibilidade dos usuários criarem seus próprios ativos, na qual podem ser transferidos e armazenados assim como o Ether. As regras desses ativos são definidas em <a href="../glossary/smart-contracts-glossary.html">smart contracts</a> e com isso, desenvolvedores determinam as usabilidades e comportamento de cada a Token, isso inclui como são criados, se são divisíveis, únicos, <a href="../glossary/max-supply-glossary.html">Max Supply</a>, se são fungíveis ou não e muitas outras coisas.
+                        </p><br>
+
+                        <p class="article-text">
+                            Existem diversos <a href="../glossary/protocolo-glossary.html">protocolos</a> de criação de tokens da rede Ethereum sendo o mais utilizado e considerado o protocolo padrão para tokens fungíveis (Criptomoedas) o <a href="../glossary/erc-20-glossary.html">ERC-20</a>, e o protocolo padrão para tokens não fungíveis (NFTs) o <a href="../glossary/erc-721-glossary.html">ERC-721</a>.
+                        </p><br>
+
+                        <p class="article-text">
+                            A funcionalidade dos tokens permite que cada aplicação seja única, cada uma tendo uma usabilidade diferente com sua própria moeda, as possibilidades de uso de <a href="../glossary/tokens-glossary.html">tokens</a> em aplicações são imensas, e com certeza no futuro veremos usos muito superiores aos que já temos hoje.
+                        </p>
+
+                        <h2 id="capitulo3" class="article-header">Capítulo 3 
+                            <br>
+                            <small>Primeiros passo com Ethereum</small>
+                        </h2>
+    
+                        <p class="article-text"> Conteúdos:
+                            <ul class="chapterSection">
+                                <li><span>-</span><a href="#comoPossoUsarOEther(ETH)"><h4 class="chapter">Como posso usar o Ether (ETH)</h4></a></li>
+                                <li><span>-</span><a href="#comoEuProtejoMeusETH"><h4 class="chapter">Como eu protejo meus ETH?</h4></a></li>
+                                <li><span>-</span><a href="#qualAMelhorFormaDeGuardarETH"><h4 class="chapter">Qual a melhor forma de guardar ETH?</h4></a></li>
+                                <li><span>-</span><a href="#guardandoMinhasCriptomoedasEmExchange"><h4 class="chapter">Guardando minhas criptomoedas em Exchange</h4></a></li>
+                                <li><span>-</span><a href="#guardandoMinhasCriptomoedasEmWallet"><h4 class="chapter">Guardando minhas criptomoedas em Wallet</h4></a></li>
+                            </ul>
+                        </p>   
+
+                        <h2 class="article-header" id="comoPossoUsarOEther(ETH)">Como posso usar o Ether (ETH)</h2>
+                        <p class="article-text">
+                            Ethereum, diferente do Bitcoin, é uma plataforma com o objetivo de criar <a href="../glossary/aplicacao-descentralizada-dapp-glossary.html">aplicações descentralizadas</a>, e tendo o Ether como a moeda principal de troca ele se torna o combustível para o ecossistema.
+                        </p><br>
+
+                        <p class="article-text">
+                            Mas além de ser o token de utilidade da Ethereum, e ser utilizado para manter a rede ativa, pagar taxas, e realizar atividades com <a href="../glossary/smart-contracts-glossary.html">contratos inteligentes</a>, o Ether é utilizado como uma moeda de troca, similar às moedas tradicionais. É possível comprar bens e serviços do mundo real utilizando Ethereum, e cada vez mais, sua aceitação é disseminada pelo mundo.
+                        </p><br>
+
+                        <p class="article-text">
+                            Apesar do ETH possuir similaridades com <a href="../glossary/bitcoin-glossary.html">Bitcoin</a> e também ser utilizado como moeda digital, garantia de empréstimos, e até reserva de valor, a rede Ethereum é muito mais complexa e possibilita diversos novos usos para o ETH. Por ser altamente programável, possibilitando a criação de aplicações em seu ecossistema, a moeda nativa da rede Ethereum pode ser utilizada em aplicações de <a href="../glossary/decentralized-finance-defi-glossary.html">finanças descentralizadas (DeFi)</a>, jogos, redes sociais, <a href="../glossary/decentralized-exchange-dex-glossary.html">Exchanges descentralizadas (DEX)</a> e uma infinidade de aplicações que os desenvolvedores decidirem criar.
+                        </p>
+                    
+                        <h2 class="article-header" id="comoEuProtejoMeusETH">Como eu protejo meus ETH?</h2>
+                        <p class="article-text">
+                            Como em criptomoedas não se têm o envolvimento de bancos, a segurança e responsabilidades de seus ativos são suas. É possível guardar suas moedas em <a href="../glossary/exchange-glossary.html">Exchanges</a>, ou em uma <a href="../glossary/wallet-glossary.html">Wallet</a> própria. Em Exchanges seu dinheiro lá guardado fica em responsabilidade da Exchange, porém isso perde a descentralização, alguns acham mais seguro por ser uma empresa que cuida de seus fundos, outros acham que perde segurança pois a moeda não está de fato sobre seu domínio, e caso a Exchange tenha tendências maliciosas, seu dinheiro pode estar em risco.
+                        </p><br>
+
+                        <p class="article-text">
+                            Caso opte por guardar suas moedas em uma wallet própria, também deve-se ter muita atenção com a frase de recuperação da conta, a <a href="../glossary/seed-phrase-glossary.html">seed phrase</a>. Cada conta possui uma, e sem ela não será possível reconectar à sua conta caso perca o acesso. 
+                        </p>
+
+                        <section class="advertisement">
+                      
+                        </section>
+                        <section class="mobileAdvertisement">
+                         
+                        </section>
+
+                        <h2 class="article-header" id="qualAMelhorFormaDeGuardarETH">Qual a melhor forma de guardar ETH?</h2>
+                        <p class="article-text">
+                            Ambas as formas possuem seus prós e contras, e como tudo que envolve risco, uma boa opção é diversificar entre mais de uma opção. Hoje no mercado existe uma gama de formas de guardar criptomoedas e deve se analisar qual faz mais sentido para você.
+                        </p>
+
+                        <p class="article-header" id="guardandoMinhasCriptomoedasEmExchange">
+                            <b>Guardando minhas criptomoedas em Exchange</b>
+                        </p>
+
+                        <p class="article-text">
+                            Ao utilizar de Exchange seu dinheiro está em <a href="../glossary/custodia-glossary.html">custódia</a>, ou seja, você confia suas moedas a essas empresas para que elas cuidem para você, é como se fosse um banco onde você deixa a responsabilidade de cuidar de seus ativos e em troca, usam de suas moedas em investimentos, ou para realizar o câmbio dentro da sua própria plataforma.
+                        </p><br>
+
+                        <p class="article-text">
+                            Nas exchanges, geralmente você deposita um valor em <a href="../glossary/moeda-fiduciaria-glossary.html">moeda fiduciária</a>, e compra as criptomoedas que você deseja ou deposita diretamente a criptomoeda de sua wallet. 
+                        </p><br>
+
+                        <p class="article-text">
+                            Geralmente plataformas de Exchange oferecem diversos serviços para que seu dinheiro possa render ao invés de deixá-lo parado na sua conta. <a href="../glossary/staking-glossary.html">Stake</a>, Plataformas de <a href="../glossary/initial-coin-offering-ico-glossary.html">ICO</a>, Pool de liquidez, e Pool de mineração, são alguns desses exemplos.  
+                        </p><br>
+
+                        <p class="article-text">
+                            Caso deseje guardar suas moedas em Exchange, temos uma sessão com várias delas para que você decida qual combina mais com você, <a href="../../exchange.html">acesse nossa página de Exchanges</a>.
+                        </p>
+
+                        <p class="article-header" id="guardandoMinhasCriptomoedasEmWallet"><b>Guardando minhas criptomoedas em Wallet</b>
+                        </p>
+
+                        <p class="article-text">
+                            Já com as Wallets, as carteiras de criptomoedas, seu dinheiro fica sob sua responsabilidade. <a href="../glossary/wallet-glossary.html">Wallets</a> são carteiras digitais, que possuem <a href="../glossary/endereco-glossary.html">endereços</a> na qual recebem e enviam criptomoedas. Ao utilizar de Wallets você tem o controle total de seu dinheiro, e é de extrema importância manter guardada a sua seed phrase, uma sequência de palavras, geralmente 12 ou 16 que com elas você poderá acessar sua conta.
+                        </p><br>
+
+                        <p class="article-text">
+                            Wallets geralmente não têm recuperação de conta, e uma vez que tenha esquecido ou perdido sua <a href="../glossary/seed-phrase-glossary.html">seed phrase</a>, possivelmente não conseguirá mais conectar-se em sua Wallet. Mas também se tem pontos positivos em relação à segurança, já que seu dinheiro está sob seu domínio, e não de terceiros, você é seu próprio centralizador, reduzindo riscos de empresas mal-intencionadas tomarem seu dinheiro.
+                        </p><br>
+
+                        <p class="article-text">
+                            É possível encontrar os serviços antes mencionados para que suas moedas rendam também, utilizando de plataformas de <a href="../glossary/decentralized-finance-defi-glossary.html">finanças descentralizadas (DeFi)</a>. Essas plataformas recebem suas moedas, e oferecem serviços para que você possa receber retornos através de <a href="../glossary/smart-contracts-glossary.html">Smart Contracts</a>. Mas com isso, suas moedas não estão mais em sua Wallet, por isso deve se atentar e escolher plataformas confiáveis.
+                        </p><br><br>
+
+                        <p class="article-text">
+                           <span class="detailSpan">>></span> <b>Existem diversas Wallets disponíveis e que funcionam de formas diferentes, sendo separadas em 2 tipos principais.</b>  <span class="detailSpan"> &lt&lt </span> <br><br>
+                            
+                        </p>
+
+                        <p class="article-text" id="hotWallet">
+                           <b>Hot Wallet</b> 
+                        </p><br>
+
+                        <p class="article-text">
+                            Carteiras que são conectadas a internet, geralmente têm seu acesso através de um aplicativo, site, ou extensão de um navegador, e permite ao usuário checar o balanço, realizar e receber transações e algumas até possibilitam o Swap dentro da própria carteira. Por serem digitais, e estarem conectadas a internet, são mais vulneráveis a ataques de <a href="../glossary/hacker-glossary.html">hackers</a>, porém têm uma usabilidade mais dinâmica e são mais convenientes para o uso do dia-a-dia.
+                        </p><br><br>
+
+                        <p class="article-text" id="coldWallet">
+                           <b>Cold Wallet</b> 
+                        </p><br>
+
+                        <p class="article-text">
+                            Já as Cold Wallets não possuem conexão com a internet, limitando a <a href="../glossary/superficie-de-ataque-glossary.html">superfície de ataque</a> de hackers a quase zero, e num geral tendem a ser muito mais seguras que as Hot Wallets. Contudo, sua usabilidade é menos intuitiva. Geralmente são através de equipamentos físicos, as Hardware Wallet (Hard Wallet) o que faz com que para uma transação de criptomoedas (mesmo que seja digital) ocorra, seja necessário o contato com um item físico.
+                        </p>
+
+                        <h2 id="capitulo4" class="article-header">Capítulo 4 
+                            <br>
+                            <small>Escalabilidade, ETH 2.0 e o futuro da Ethereum</small>
+                        </h2>
+    
+                        <p class="article-text"> Conteúdos:
+                            <ul class="chapterSection">
+                                <li><span>-</span><a href="#oQueEEscalabilidade"><h4 class="chapter">O que é Escalabilidade?</h4></a></li>
+                                <li><span>-</span><a href="#escalabilidadeNaEthereum"><h4 class="chapter">Escalabilidade na Ethereum</h4></a></li>
+                                <li><span>-</span><a href="#oTrilemaDasRedesBlockchain"><h4 class="chapter">O Trilema da Redes Blockchain</h4></a></li>
+                                <li><span>-</span><a href="#transacoesNaEthereum"><h4 class="chapter">Transações na Ethereum</h4></a></li>
+                                <li><span>-</span><a href="#ethereum20"><h4 class="chapter">Ethereum 2.0</h4></a></li>
+                                <li><span>-</span><a href="#oQueEEthereumPlasma"><h4 class="chapter">O que é Ethereum Plasma?</h4></a></li>
+                                <li><span>-</span><a href="#oQueSaoEthereumRollups"><h4 class="chapter">O que são Ethereum Rollups?</h4></a></li>
+                                <li><span>-</span><a href="#oQueEEthereumProofOfStake"><h4 class="chapter">O que é Ethereum Proof of Stake (PoS)?</h4></a></li>
+                                <li><span>-</span><a href="#comoFuncionaOStakingDeEthereum"><h4 class="chapter">Como funciona o Staking de Ethereum?</h4></a></li>
+                                <li><span>-</span><a href="#quantosTokensPrecisoAdicionarEmStakeParaMeTornarUmValidadorDaEthereum?"><h4 class="chapter">Quantos tokens preciso adicionar em Stake para me tornar um validador da Ethereum?</h4></a></li>
+                                <li><span>-</span><a href="#quantoEuReceboAoFazerOStakeNaEthereum"><h4 class="chapter">Quanto eu recebo ao fazer o Stake na Ethereum?</h4></a></li>
+                                <li><span>-</span><a href="#quantoTempoMeusETHFicamEmStake"><h4 class="chapter">Quanto tempo meus ETH ficam em Stake?</h4></a></li>
+                                <li><span>-</span><a href="#quaisSaoOsRiscosDeFazerStakeNaEthereum"><h4 class="chapter">Quais são os riscos de fazer Stake na Ethereum?</h4></a></li>
+                            </ul>
+                        </p>   
+
+                        <h2 class="article-header" id="oQueEEscalabilidade">O que é Escalabilidade?</h2>
+                        <p class="article-text">
+                            Escalabilidade é um termo para definir o potencial de crescimento de algum projeto, produto ou serviço. Em computação, pode-se melhorar os servidores para que aguente uma demanda maior de usuários, tornando-se assim mais escalável.
+                        </p><br>
+                        
+                        <p class="article-text">
+                            No âmbito de <a href="../glossary/criptomoedas-glossary.html">criptomoedas</a> e Blockchain, escalabilidade se refere à habilidade de suportar um grande número de usuários, e o como ela pode ser aprimorada para aceitar mais usuários. A entrada de novos usuários significa mais transações a serem incluídas na <a href="../glossary/blockchain-glossary.html">Blockchain</a>, e a escalabilidade da rede, determina se será possível manter um alto número de usuários, com transações rápidas e baratas.
+                        </p>
+
+                        <h2 class="article-header" id="escalabilidadeNaEthereum">Escalabilidade na Ethereum</h2>
+                        <p class="article-text">
+                            Usuários da Ethereum acreditam que o futuro da internet será construído sobre o protocolo da Ethereum ou outros projetos similares, a chamada Web3 busca trazer um ambiente digital <a href="../glossary/descentralizado-glossary.html">descentralizado</a> com o mínimo de intermediários. Aplicações e sistemas serão caracterizados pela segurança e privacidade, dados e itens digitais passarão a ser de posse verdadeira do usuário e não de uma empresa centralizadora. Esse ambiente será construído em cima de protocolos que utilizam de <a href="../glossary/smart-contracts-glossary.html">Smart Contracts</a> para realizar suas operações, e terão o poder computacional dividido entre todos os usuários da rede.
+                        </p><br>
+                        
+                        <p class="article-text">
+                            Para que isso seja possível, a Ethereum deve aumentar o número de transações que podem ser processadas sem que tenha impactos na rede e na experiência descentralizada do usuário. Diferente do <a href="./bitcoin-discover.html">Bitcoin</a> a Ethereum não tem um limite de transações por <a href="../glossary/bloco-glossary.html">bloco</a>, mas aplica um mecanismo de limitar a quantidade de Gas que cada bloco aceita.
+                        </p><br>
+
+                        <p class="article-text">
+                            Por exemplo, caso o bloco aceite 10.000 <a href="../glossary/gwei-glossary.html">Gwei</a> como limite de Gas, e duas transações com o Gas limit de 5.000 Gwei cada serem solicitadas, as demais transações serão incluídas em um próximo bloco, e com isso se tem dois problemas, ou o usuário deve aguardar o próximo bloco para que sua transação aconteça ou deverá pagar um valor superior a 5.000 Gwei para que sua transação ocorra antes.
+                        </p><br>
+
+                        <p class="article-text">
+                            Esse mecanismo diminui a escalabilidade do projeto, e em uma rede com muitos usuários, refletirá em um acréscimo tanto na taxa de <a href="../glossary/gas-glossary.html">Gas</a>  quanto no tempo de uma transação ser efetuada.
+                        </p><br>
+
+                        <p class="article-text">
+                            No momento da escrita desse artigo a quantidade alvo de Gas aceito por cada bloco na <a href="../glossary/blockchain">Blockchain</a> da Ethereum é de 15 milhões de Gwei, podendo chegar até um máximo de 30 milhões de Gwei. Caso a quantidade de Gas/Bloco se mantenha superior ao limite, a taxa de Gas mínima será aumentada exponencialmente, buscando o equilíbrio desses valores.
+                        </p><br>
+
+                        <p class="article-text">
+                            Aumentar a quantidade limite de Gas aceito em cada bloco pode parecer a solução dos problemas de escalabilidade da Ethereum. Com um espaço maior para Gas, mais transações poderão ser incluídas no mesmo bloco, trazendo transações mais rápidas para os usuários. Porém batemos com o conceito do Trilema das Redes Blockchain descrito pelo próprio criador da Ethereum, Vitalik Buterin.
+                        </p>
+
+                        <section class="advertisement">
+                          
+                        </section>
+                        <section class="mobileAdvertisement">
+                         
+                        </section>
+
+                        <h2 class="article-header" id="oTrilemaDasRedesBlockchain">O Trilema da Redes Blockchain</h2>
+                        <p class="article-text">
+                            Para que uma rede Blockchain se mantenha com seus princípios, são necessários que 3 pontos estejam alinhados e em equilíbrio, são eles:
+                        </p><br>
+
+                        <ul>
+                            <li><p class="article-text"><b>- Escalabilidade</b></p></li>
+                            <li><p class="article-text"><b>- Segurança</b></p></li>
+                            <li><p class="article-text"><b>- Descentralização</b></p></li>
+                        </ul><br><br>
+
+                        <p class="article-text">
+                            O trilema das redes blockchain, define que caso opte por otimizar dois desses pontos, o terceiro ficará em falta, resultando numa quebra dos princípios da Blockchain. 
+                        </p><br>
+
+                        <p class="article-text">
+                            Pensando no Ethereum e no Bitcoin como exemplo, que priorizam a <b>Segurança e Descentralização</b> tem seu algoritmo de <a href="../glossary/consenso-glossary.html">consenso</a> programado de forma que garante a segurança nas transações, mas ao mesmo tempo reflete em uma menor Escalabilidade. Com diversos <a href="../glossary/node-glossary.html">nodes</a> recebendo e validando transações, sua rede se torna mais lenta e com taxas superiores a alternativas centralizadas.
+                        </p><br>
+
+                        <p class="article-text">
+                            Caso o limite de transações por <a href="../glossary/bloco-glossary.html">bloco</a> aumente a rede terá uma maior Escalabilidade, porém terá uma menor descentralização. Isso se dá, pois com mais transações por bloco, o bloco será maior e demandará de um maior poder computacional para que os blocos sejam validados e armazenados pelos nodes. 
+                        </p><br>
+                        
+                        <p class="article-text">
+                            Com isso, nodes pequenos deixarão a rede que ao longo do tempo terá apenas uma fração de nodes com poder computacional altíssimo, tornando-se uma rede mais centralizada. Você alcançará uma rede com <b>Escalabilidade e Segurança</b>, porém com uma menor descentralização. 
+                        </p><br>
+
+                        <p class="article-text">
+                            Por fim, em uma rede que otimiza a <b>Escalabilidade e Descentralização</b>, terá uma rede rápida e com transações baratas, porém qualquer um poderá ser um <a href="../glossary/validador-glossary.html">validador</a>, o que pode trazer problemas ao mecanismo de consenso, tornando-a insegura. 
+                        </p>
+
+                        <h2 class="article-header" id="transacoesNaEthereum">Transações na Ethereum</h2>
+                        <p class="article-text">
+                            Ethereum tem o objetivo de se tornar um “computador global”, mas a quantidade de transações que realiza por segundo não condiz com seus planos. Nos últimos anos a Ethereum se manteve em uma taxa surpreendentemente baixa de dez <a href="../glossary/transacoes-por-segundo-tps-glossary.html">transações por segundo TPS</a>.
+                        </p><br>
+
+                        <p class="article-text">
+                            Soluções para o problema de escalabilidade da Ethereum já estão em seu <a href="../glossary/roadmap-glossary.html">roadmap</a>. Uma solução que está em desenvolvimento é o <a href="../glossary/ethereum-plasma-glossary.html">Ethereum Plasma</a> que busca trazer melhorias na eficiência da Ethereum, mas não se limita a ela, tendo sua técnica aplicada também em outras Blockchains.
+                        </p>
+                        
+                        <h2 class="article-header" id="ethereum20">Ethereum 2.0</h2>
+                        <p class="article-text">
+                            Apesar do potencial da Ethereum de ser um computador global que suporta um novo sistema financeiro, existem limitações que precisam ser tratadas, sendo a escalabilidade da rede uma delas. Para se tornar um sistema financeiro inovador é preciso ser capaz de processar muito mais do que 10 <a href="../glossary/transacoes-por-segundo-tps-glossary.html">transações por segundo</a>, e esse é um problema que desafia os desenvolvedores da Ethereum a anos.
+                        </p><br>
+
+                        <p class="article-text">
+                            É também preciso definir limitações para manter a rede suficientemente <a href="../glossary/descentralizado-glossary.html">descentralizada</a>. Quanto mais alto os requisitos para operar um <a href="../glossary/node-glossary.html">node</a>, menos nodes serão participantes na rede, tornando-a cada vez mais centralizada. Então aumentar o numero de transações que a Ethereum pode processar, por mais que seja fundamental para a escalabilidade, é um perigo para a integridade do sistema.
+                        </p><br>
+
+                        <p class="article-text">
+                            Outro problema da Ethereum (e de outras criptomoedas que utilizam de <a href="../glossary/proof-of-work-pow-glossary.html">Proof of Work</a>) é a demanda por poder computacional. Para adicionar novos blocos em uma blockchain que utiliza de Proof of Work, é necessário fazer a <a href="../glossary/mineracao-glossary.html">mineração</a>, um processo de computação de dados que consome uma grande quantidade de energia.
+                        </p><br>
+
+                        <p class="article-text">
+                            Para solucionar os problemas citados, uma proposta de melhoria conhecida como Ethereum 2.0 ou (Eth2) está sendo desenvolvida, está que por sua vez, trará mudanças na eficiência da rede, com uma maior escalabilidade e a migração de <a href="../glossary/proof-of-work-pow-glossary.html">Proof of Work</a> para <a href="../glossary/proof-of-stake-pos-glossary.html">Proof of Stake</a>.
+                        </p>
+
+                        <h2 class="article-header" id="oQueEEthereumPlasma">O que é Ethereum Plasma?</h2>
+                        <p class="article-text">
+                            <a href="../glossary/ethereum-plasma-glossary.html">Ethereum Plasma</a> é uma solução que busca trazer escalabilidade <a href="../glossary/off-chain-glossary.html">Off-Chain</a> para a Ethereum. Baseia-se em utilizar de redes secundárias que operam de forma independente (similares às <a href="../glossary/side-chain-glossary.html">Sidechains</a>), mas que permanecem conectadas à Blockchain principal da Ethereum. Essa solução busca reduzir a quantidade de dados que os nodes armazenam na rede principal assim tendo uma maior escalabilidade.
+                        </p><br>
+
+                        <p class="article-text">
+                           As “redes secundárias” têm suas funcionalidades definidas em um único <a href="../glossary/smart-contracts-glossary.html">Smart Contract</a> na <a href="../glossary/blockchain-glossary.html">Blockchain</a> principal, com isso, desenvolvedores tornam-se livres para criar aplicações nessas redes de forma mais barata do que armazenar e executar operações na rede principal.
+                        </p><br>
+
+                        <h2 class="article-header" id="oQueSaoEthereumRollups">O que são Ethereum Rollups?</h2>
+                        <p class="article-text">
+                            Similares ao Plasma, Rollups também buscam trazer escalabilidade ao mover as transações para fora da Blockchain principal. 
+                        </p><br>
+
+                        <p class="article-text">
+                            Em Rollups todos os fundos dessa “rede secundária” e uma comprovação criptografada do atual estado da rede são mantidos dentro de um único <a href="../glossary/smart-contracts-glossary.html">Smart Contract</a> na Blockchain principal. O usuário dessa rede secundária, na qual fez o registro do contrato na rede principal, certifica de que apenas transações validadas passem para o contrato. Já que as redes secundárias permanecem <a href="../glossary/off-chain-glossary.html">off-chain</a>, não é necessário armazenar dados na blockchain.
+                        </p><br>
+
+                        <p class="article-text">
+                            A principal diferença de Rollup e Plasma é a forma em que as transações são passadas para a rede princial. Em rollups, um grande número de transações são agrupadas e enviadas para a Blockchain como um tipo especial de bloco, o Rollup Block.
+                        </p><br>
+
+                        <p class="article-text">
+                            Rollups são dividos em dois tipos: <b>Optimistic e ZK Rollup</b>, e ambos garantem somente o envio de transações validadas para a rede principal, porém de maneiras diferentes.
+                        </p><br>
+
+                        <p class="article-text">
+                            ZK Rollups: Envia transações utilizando um modelo de verificação chamado <a href="../glossary/zero-knowledge-proofs-glossary.html">Zero-Knowledge Proof</a>, esse modelo, garante que duas partes possam provar uma a outra que ambas possuem uma informação específica, mas sem revelar a informação em si. No caso de ZK Rollups, essa informação é a transação validada que é enviada para a rede principal.
+                        </p><br>
+
+                        <p class="article-text">
+                            Uma vantagem ao utilizar ZK Rollups é a velocidade na transação que ocorre quase que instantaneamente além de possuir taxas baixíssimas e grande segurança.
+                        </p><br>
+
+                        <p class="article-text">
+                            Optimistic Rollups: Permite que <a href="../glossary/smart-contracts-glossary.html">Smart Contracts</a> sejam executados nas redes secundárias, trazendo maior flexibilidade porém sacrificando a escalabilidade. Optimistic Rollups utilizam de uma máquina virtual chamada de Optimistic Virtual Machine (OVM) para executar esses contratos, entretanto não possui um sistema de verificação para provar que a transação enviada para a rede principal é correta. Para mitigar o risco de transações invalidadas serem enviadas, existe um atraso em sua operação, para que usuários possam rejeitar blocos inválidos caso sejam enviados para a rede principal.
+                        </p>
+
+                        <section class="advertisement">
+                    
+                        </section>
+                        <section class="mobileAdvertisement">
+                          
+                        </section>
+
+                        <h2 class="article-header" id="oQueEEthereumProofOfStake">O que é Ethereum Proof of Stake (PoS)?</h2>
+                        <p class="article-text">
+                            <a href="../glossary/proof-of-stake-pos-glossary.html">Proof of Stake (PoS)</a> é uma forma de validar blocos que busca solucionar problemas do convencional <a href="../glossary/proof-of-work-pow-glossary.html">Proof of Work (PoW)</a>. Diferente do PoW, no Proof of Stake ao invés de utilizar do poder computacional para minerar blocos, cada node (validador) é selecionado aleatoriamente para validar um bloco num processo chamado Mint, caso a validação seja correta o node receberá todas as taxas de transferência do bloco e a <a href="../glossary/block-reward-glossary.html">recompensa do bloco</a>, dependendo de cada <a href="../glossary/protocolo-glossary.html">protocolo</a>.
+                        </p><br>
+
+                        <p class="article-text">
+                            Um dos principais benefícios do Proof of Stake é no âmbito ambiental, já que não demanda de um enorme poder computacional para validar blocos, o consumo de energia para manter a rede ativa é minimizado.
+                        </p><br>
+
+                        <p class="article-text">
+                            Para o Ethereum a migração de Proof of Work para Proof of Stake já está em desenvolvimento, e tende a ser implantado junto com o Ethereum 2.0 num processo de melhoria chamado Ethereum Casper.
+                        </p>
+
+                        <h2 class="article-header" id="comoFuncionaOStakingDeEthereum">Como funciona o Staking de Ethereum?</h2>
+                        <p class="article-text">
+                            Nos protocolos <a href="../glossary/proof-of-work-pow-glossary.html">Proof of Work</a>, quem mantém a segurança da rede são os <a href="../glossary/mineradores-glossary.html">mineradores</a>, que disponibilizam poder computacional para validar as operações. Por passar por todos os nodes em busca de encontrar um <a href="../glossary/consenso-glossary.html">consenso</a> dos blocos validados, roubar nesse jogo será um desperdício de tempo e de energia do minerador, e pode levá-lo a diminuir suas recompensas.
+                        </p><br>
+
+                        <p class="article-text">
+                            No <a href="../glossary/proof-of-stake-pos-glossary.html">Proof of Stake</a> é um pouco diferente, ao invés de possuir o risco de diminuir a recompensa caso tenha uma conduta desonesta, o risco está em perder seus ativos. No PoS, validadores precisam adicionar em Stake uma certa quantidade de <a href="../glossary/tokens-glossary.html">tokens</a> para serem aptos a realizar validações, esses tokens serão lentamente perdidos caso o <a href="../glossary/validador-glossary.html">validador</a> tente roubar, ou permaneça offline, não realizando as validações que deveria estar fazendo. 
+                        </p>
+
+                        <h2 class="article-header" id="quantosTokensPrecisoAdicionarEmStakeParaMeTornarUmValidadorDaEthereum?">Quantos tokens preciso adicionar em Stake para me tornar um validador da Ethereum?</h2>
+                        <p class="article-text">
+                            São necessários no mínimo 32 ETH em <a href="../glossary/staking-glossary.html">Stake</a> para ser um validador, e essa quantidade ser alta traz uma segurança maior para a rede, pois isso torna muito caro para realizar <a href="../glossary/ataque-de-51-glossary.html">ataques de 51%</a>.
+                        </p>
+
+                        <h2 class="article-header" id="quantoEuReceboAoFazerOStakeNaEthereum">Quanto eu recebo ao fazer o Stake na Ethereum?</h2>
+                        <p class="article-text">
+                            Esse valor varia bastante e leva em consideração uma série de fatores, como a atividade na rede, a quantidade que você alocou em <a href="../glossary/staking-glossary.html">Stake</a>, e a quantidade total que têm alocado em Stake na rede. Uma estimativa no momento em que escrevemos esse artigo é um retorno aproximado de 6% ao ano, mas é apenas uma estimativa e possivelmente irá variar no futuro.
+                        </p>
+
+                        <h2 class="article-header" id="quantoTempoMeusETHFicamEmStake">Quanto tempo meus ETH ficam em Stake?</h2>
+                        <p class="article-text">
+                            Assim que seus Ether estiverem em Stake, você estará atuando como <a href="../glossary/validador-glossary.html">validador</a> e estará apto a receber recompensas. Caso deseje sacar seus tokens de volta, você entrará para uma fila de saque, que varia conforme a quantidade de validadores sacando no mesmo momento. Caso não tenha a fila o tempo mínimo de saque são 18 horas. Isso ocorre para proteger que muitas pessoas retirem seus tokens ao mesmo tempo, pois causaria um colapso na rede.
+                        </p>
+
+                        <h2 class="article-header" id="quaisSaoOsRiscosDeFazerStakeNaEthereum">Quais são os riscos de fazer Stake na Ethereum?</h2>
+                        <p class="article-text">
+                            Por ser um validador, sua missão e manter a rede segura e ativa, para em troca, receber recompensas pelo seu trabalho, contudo deve se levar em consideração alguns riscos.
+                        </p><br>
+
+                        <p class="article-text">
+                            Caso seu <a href="../glossary/node-glossary.html">node</a> de validação permaneça muito tempo offline, sua parcela em Stake começará a ser consumida, e poderá perder grande parte do valor alocado. Caso a quantidade em <a href="../glossary/staking-glossary.html">Stake</a> diminua abaixo de 16 ETH, você será removido do grupo de validadores.
+                        </p><br>
+
+                        <h2 id="capitulo5" class="article-header">Capítulo 5 
+                            <br>
+                            <small>Ethereum e Finanças Descentralizadas (DeFi)</small>
+                        </h2>
+    
+                        <p class="article-text"> Conteúdos:
+                            <ul class="chapterSection">
+                                <li><span>-</span><a href="#oQueSaoFinancasDescentralizadas"><h3 class="chapter">O que são Finanças Descentralizadas (DeFi)?</h3></a></li>
+                                <li><span>-</span><a href="#quaisOsUsosDasFinancasDescentralizadas"><h3 class="chapter">Quais os usos das Finanças Descentralizadas (DeFi)?</h3></a></li>
+                                <li><span>-</span><a href="#quaisOsTiposDeAplicacoesDeFi"><h3 class="chapter">Quais os tipos de aplicações DeFi?</h3></a></li>
+                                <li><span>-</span><a href="#exchangesDescentralizadas"><h3 class="chapter">Exchanges Descentralizadas (DEX)</h3></a></li>
+                                <li><span>-</span><a href="#exchangesCentralizadasXExchangesDescentralizadas"><h3 class="chapter">Exchanges Centralizadas (CEX) x Exchanges Descentralizadas (DEX)</h3></a></li>
+                            </ul>
+                        </p>   
+
+                        <h2 class="article-header" id="oQueSaoFinancasDescentralizadas">O que são Finanças Descentralizadas (DeFi)?</h2>
+                        <p class="article-text">
+                            <a href="../glossary/decentralized-finance-defi-glossary.html">Finanças Descentralizadas</a>, ou DeFi, são aplicações financeiras que buscam não possuem um centralizador, como um banco por exemplo. Plataformas <a href="../glossary/decentralized-finance-defi-glossary.html">DeFi</a> são construídas em <a href="../glossary/blockchain-glossary.html">blockchains</a> com códigos <a href="../glossary/open-source-software-glossary.html">open-source</a>, fazendo com que qualquer um possa acessar. Essas plataformas têm grande importância no objetivo das criptomoedas de ser um sistema financeiro global descentralizado.
+                        </p><br>
+
+                        <p class="article-text">
+                            As plataformas DeFi, permitem aos usuários interagirem entre si usando redes <a href="../glossary/peer-to-peer-p2p-glossary.html">peer-to-peer (P2P)</a> e também acessar as funcionalidades da plataforma usando <a href="../glossary/smart-contracts-glossary.html">Smart Contracts</a>. Um ponto positivo de DeFi é que durante todo o processo, o usuário mantém a posse de seus ativos.
+                        </p><br>
+
+                        <p class="article-text">
+                            <a href="../glossary/decentralized-finance-defi-glossary.html">Finanças Descentralizadas (DeFi)</a> é um movimento que busca se tornar um novo sistema financeiro, livre de limitações centralizadas, de forma a permitir ao usuário a posse de seu ativo durante todo o tempo, e que as trocas, aconteçam de pessoa para pessoa (P2P). Existem diversas plataformas de DeFi disponíveis, sendo a maioria delas desenvolvida na Ethereum.
+                        </p><br>
+
+                        <h2 class="article-header" id="quaisOsUsosDasFinancasDescentralizadas">Quais os usos das Finanças Descentralizadas (DeFi)?</h2>
+                        <p class="article-text">
+                            A idéia principal das <a href="../glossary/criptomoedas-glossary.html">criptomoedas</a> é que trocas de valor possam ocorrer sem um <a href="../glossary/centralizado-glossary.html">centralizador</a> coordenando essas operações, um exemplo disso é o <a href="./bitcoin-discover.html">Bitcoin</a>. DeFi busca usar esse conceito para criar <a href="../glossary/aplicacao-descentralizada-dapp-glossary.html">aplicações descentralizadas</a>  que dispensam intermediários e centralizadores coordenando as operações, eliminando pontos únicos de falha.
+                        </p><br>
+
+                        <p class="article-text">
+                            Uma das grandes vantagens do DeFi é o fácil acesso por qualquer um, basta ter acesso à internet. Com isso, bilhões de pessoas que não possuem acesso a serviços financeiros específicos podem utilizar as plataformas <a href="../glossary/decentralized-finance-defi-glossary.html">DeFi</a>. Muitas pessoas vivem sem utilizar do sistema financeiro tradicional, trazendo incerteza para suas finanças. DeFi tem como alvo esse público.
+                        </p><br>
+
+                        <h2 class="article-header" id="quaisOsTiposDeAplicacoesDeFi">Quais os tipos de aplicações DeFi?</h2>
+                        <p class="article-text">
+                            Com o ecossistema de DeFi expandindo, existem diversas opções de serviços e funcionalidades disponíveis. Um dos usos mais populares de <a href="../glossary/decentralized-finance-defi-glossary.html">Finanças Descentralizadas (DeFi)</a> são as Stablecoins, moedas lastreadas a ativos do mundo real. <a href="../glossary/stablecoins-glossary.html">Stablecoins</a> são tokens que operam sobre redes <a href="../glossary/blockchain-glossary.html">blockchain</a> (Tornando-os facilmente trocáveis) e que acompanham o valor de algum ativo, como <a href="../glossary/moeda-fiduciaria-glossary.html">moeda fiduciária</a>, índice ou commodities. Por exemplo, o token <a href="../../cryptocurrencies/usd-coin/usd-coin.html">USDC</a> é lastreado ao valor do Dólar Americano (USD).
+                        </p><br>
+                        
+                        <p class="article-text">
+                            Outras aplicações muito populares são as plataformas de empréstimo de criptomoedas, os Lending Protocol. Existem diversas plataformas que permitem tanto emprestar suas moedas para receber um retorno percentual sobre isso, ou pegar moedas emprestadas sobre uma taxa de juros. Tudo isso ocorrendo de forma <a href="../glossary/peer-to-peer-p2p-glossary.html">peer-to-peer (P2P)</a>.
+                        </p><br>
+
+                        <p class="article-text">
+                            Existem diversos serviços quando se trata de <a href="../glossary/decentralized-finance-defi-glossary.html">DeFi</a>. Pools de Liquidez, <a href="../glossary/yield-farming-glossary.html">Yield Farming</a>, e <a href="../glossary/staking-glossary.html">Staking</a> são alguns dos modelo de retorno passivo porém o mercado não se limita a isso.
+                        </p><br>
+
+                        <p class="article-text">
+                            Com a expansão dos <a href="../glossary/nft-tokens-nao-fungiveis-glossary.html">NFTs</a>, e com as plataformas de Marketplaces Descentralizados é possível comprar e vender esses colecionáveis e outros itens digitais. 
+                        </p><br>
+
+                        <p class="article-text">
+                            Com as plataformas de Swaping é possível criar pares de liquidez de praticamente qualquer coisa que tenha valor. Diversas plataformas oferecem acesso à <a href="../glossary/derivativos-glossary.html">derivativos</a> de ações, e índices do mundo real, e muito mais.
+                        </p><br>
+
+                        <section class="advertisement">
+                           
+                        </section>
+                        <section class="mobileAdvertisement">
+                     
+                        </section>
+                        
+                        <h2 class="article-header" id="exchangesDescentralizadas">Exchanges Descentralizadas (DEX)</h2>
+                        <p class="article-text">
+                            <a href="../glossary/exchange-glossary.html">Exchanges</a> são empresas que permitem a compra e venda de criptomoedas e outros ativos, essas plataformas geralmente recebem seu depósito que permanece em <a href="../glossary/custodia-glossary.html">custódia</a> para realizar suas operações. Com o universo ecossistema do DeFi, as <a href="../glossary/decentralized-exchange-dex-glossary.html">Exchanges Descentralizadas (DEX)</a> buscam realizar os mesmos serviços, porém sem ter uma empresa coordenando as operações.
+                        </p><br>
+
+                        <p class="article-text">
+                            Nas Exchanges Descentralizadas as trocas acontecem diretamente entre as carteiras dos usuários, graças ao poder dos <a href="../glossary/smart-contracts-glossary.html">Smart Contracts</a>. Eliminando riscos de empresas mal intencionadas, ou de ataque de <a href="../glossary/hacker-glossary.html">hackers</a> nessas empresas.
+                        </p><br>
+
+                        <p class="article-text">
+                            Alguns exemplos de Exchanges Descentralizadas que são desenvolvidas na Ethereum são a <a href="../../cryptocurrencies/uniswap/uniswap.html">Uniswap</a>, <a href="../../cryptocurrencies/kyber-network-crystal-v2/kyber-network-crystal-v2.html">Kyber Network</a> e a IDEX.
+                        </p><br>
+
+                        <h2 class="article-header" id="exchangesCentralizadasXExchangesDescentralizadas">Exchanges Centralizadas (CEX) x Exchanges Descentralizadas (DEX)</h2>
+                        <p class="article-text">
+                            Nas  Exchanges Centralizadas (CEX) a troca ocorre com um <a href="../glossary/centralizado-glossary.html">centralizador</a> coordenando a operação.
+                        </p><br>    
+
+
+                        <p class="article-text">
+                            <b>João</b> <span class="detailSpan">>></span> <b>15 Token A</b> <span class="detailSpan">>></span> <b class="detailSpan">Exchange</b> <span class="detailSpan">>></span> <b>15 Token A</b> <span class="detailSpan">>></span> <b> Bruna</b> <br><br>
+
+                            <b>Bruna</b> <span class="detailSpan">>></span> <b>15 Token B</b> <span class="detailSpan">>></span> <b class="detailSpan">Exchange</b> <span class="detailSpan">>></span> <b>15 Token B</b> <span class="detailSpan">>></span> <b> João</b> <br>
+                        </p><br><br><br>
+                        
+                        <p class="article-text">
+                          Já nas <a href="../glossary/decentralized-exchange-dex-glossary.html">Exchanges Descentralizadas (DEX)</a> a troca ocorre diretamente entre usuários.
+                        </p><br>
+
+                        <p class="article-text">
+                            <b>João</b> <span class="detailSpan">>></span> <b>15 Token A</b> <span class="detailSpan">>></span> <b> Bruna</b> <br><br>
+
+                            <b>Bruna</b> <span class="detailSpan">>></span> <b>15 Token B</b> <span class="detailSpan">>></span> <b> João</b> <br>
+                        </p><br>
+                        
+                        <p class="article-text">
+                            Para que usuários possam realizar trocas nas CEX, é preciso depositar seus fundos na plataforma, que tem a função de coordenar e garantir essas trocas. Já nas <a href="../glossary/decentralized-exchange-dex-glossary.html">DEX</a> a troca é feita diretamente da sua <a href="../glossary/wallet-glossary.html">Wallet</a>, e a garantia é feita através de <a href="../glossary/smart-contracts-glossary.html">Smart Contracts</a>. 
+                        </p><br>
+
+                        <p class="article-text">
+                            Cada tipo de <a href="../glossary/exchange-glossary.html">Exchange</a> possui suas vantagens e desvantagens, pelas exchanges centralizadas possuírem uma base de usuário muito maior, grande parte do <a href="../glossary/volume-glossary.html">volume</a> e <a href="../glossary/liquidez-glossary.html">liquidez</a> do mercado está nas plataformas centralizadas. Já as <a href="../glossary/decentralized-exchange-dex-glossary.html">DEX</a> permitem que o usuário mantenha seus ativos em sua posse durante toda a troca.
+                        </p><br>
+
+                        <p class="article-text">
+                            Quer saber mais sobre Finanças Descentralizadas, separamos uma seção especial direcionado especificamente para DeFi. <a href="../academyDeFi/academyDeFi.html">Acesse em PIC | DeFi.</a>
+                        </p><br>
+
+                        <h2 id="capitulo6" class="article-header">Capítulo 6 
+                            <br>
+                            <small>Participando na Rede Ethereum</small>
+                        </h2>
+
+                        <p class="article-text"> Conteúdos:
+                            <ul class="chapterSection">
+                                <li><span>-</span><a href="#oQueSaoNodesDaEthereum"><h3 class="chapter">O que são Nodes da Ethereum?</h3></a></li>
+                                <li><span>-</span><a href="#comoFuncionaUmNodeDaEthereum"><h3 class="chapter">Como funciona um Node da Ethereum?</h3></a></li>
+                                <li><span>-</span><a href="#ethereumFullNodes"><h3 class="chapter">Ethereum Full Nodes</h3></a></li>
+                                <li><span>-</span><a href="#ethereumLightNodes"><h3 class="chapter">Ethereum Light Nodes</h3></a></li>
+                                <li><span>-</span><a href="#ethereumMiningNodes"><h3 class="chapter">Ethereum Mining Nodes</h3></a></li>
+                                <li><span>-</span><a href="#comoRodarUmNodeDaEthereum"><h3 class="chapter">Como rodar um Node da Ethereum?</h3></a></li>
+                                <li><span>-</span><a href="#comoMinerarNaEthereum"><h3 class="chapter">Como minerar na Ethereum?</h3></a></li>
+                                <li><span>-</span><a href="#quemDesenvolveOSoftwareDaEthereum"><h3 class="chapter">Quem desenvolve o software da Ethereum?</h3></a></li>
+                                <li><span>-</span><a href="#oQueESolidity"><h3 class="chapter">O que é solidity?</h3></a></li>
+                            </ul>
+                        </p>   
+                    
+                        <h2 class="article-header" id="oQueSaoNodesDaEthereum">O que são Nodes da Ethereum?</h2>
+                        <p class="article-text">
+                            <a href="../glossary/node-glossary.html">Nodes</a> são programas que de alguma forma interagem com a Ethereum, sejam eles aplicativos simples de celular como <a href="../glossary/wallet-glossary.html">Wallets</a>, ou sistemas complexos de computadores.
+                        </p><br> 
+
+                        <p class="article-text">
+                            <span class="detailSpan">>></span> <b>Existem diferentes tipos de nodes, mas todos servem como um ponto de comunicação na rede Ethereum.</b>  <span class="detailSpan"> &lt&lt </span> 
+                        </p><br> 
+
+                        <h2 class="article-header" id="comoFuncionaUmNodeDaEthereum">Como funciona um Node da Ethereum?</h2>
+                        <p class="article-text">
+                            Ethereum não possui um sistema único para ser utilizado como <a href="../glossary/node-glossary.html">Node</a>. O ecossistema do <a href="../glossary/bitcoin-glossary.html">Bitcoin</a>, por exemplo, possui o Bitcoin Core, que serve como Node primário. Já na Ethereum existem diversos programas únicos, mas compatíveis. Alguns exemplos de nodes da Ethereum são o Geth e o Parity.
+                        </p><br> 
+
+                        <h2 class="article-header" id="ethereumFullNodes">Ethereum Full Nodes</h2>
+                        <p class="article-text">
+                            Utilizando de sistemas como os mencionados anteriormente é possível rodar Full Nodes, podendo assim interagir com a rede da Ethereum, e validar informações da <a href="../glossary/blockchain-glossary.html">Blockhain</a> de forma independente.
+                        </p><br> 
+
+                        <p class="article-text">
+                            O sistema baixa <a href="../glossary/bloco-glossary.html">blocos</a> de outro nodes, e verificará se as transações incluídas nos blocos são corretas. Para garantir que a informação que você receba seja a mesma que a de outros nodes, o sistema também executará todos os <a href="../glossary/smart-contracts-glossary.html">Smart Contracts</a> que foram acionados. Com isso, todos os nodes deverão ter uma cópia idêntica da <a href="../glossary/blockchain-glossary.html">Blockchain</a>.
+                        </p><br> 
+
+                        <p class="article-text">
+                            Full Nodes são de extrema importância para a Ethereum, e é fundamental ter diversos nodes espalhados ao redor do mundo para manter a descentralização na rede.
+                        </p><br> 
+
+                        <h2 class="article-header" id="ethereumLightNodes">Ethereum Light Nodes</h2>
+                        <p class="article-text">
+                            Apesar da importância dos Full Nodes para a rede da Ethereum, manter um Full Node demanda muitos recursos, o que o torna inviável para muitas pessoas. Light Nodes é uma opção mais viável (porém limitada) para aqueles que não são capazes de rodar Full Nodes.
+                        </p><br> 
+                        
+                        <p class="article-text">
+                            Light Nodes utilizam menos recursos da máquina e menos espaço, o que possibilita que sejam executados em quase qualquer máquina, sejam elas aparelhos celulares ou laptops. Como mencionado anteriormente, Light Nodes são limitados, e dependem de full nodes para obter algumas informações importantes.
+                        </p><br> 
+
+                        <p class="article-text">
+                            Light Nodes são muito utilizados para receber e enviar pagamentos, e é utilizado principalmente por usuários comuns, comerciantes, e prestadores de serviço, em casos na qual rodar um Full Node trará um custo muito elevado, ou será desnecessário.
+                        </p><br> 
+
+                        <h2 class="article-header" id="ethereumMiningNodes">Ethereum Mining Nodes</h2>
+                        <p class="article-text">
+                            Mining Nodes, também conhecidos como Nodes de Mineração, podem ser tanto Full Nodes quanto Light Nodes. Mesmo que possua o mesmo nome, Mining Nodes da Ethereum e Mining Nodes do <a href="./bitcoin-discover.html">Bitcoin</a> são coisas diferentes.
+                        </p><br> 
+
+                        <p class="article-text">
+                            Para minerar na Ethereum é preciso um alto poder computacional e isso envolve hardwares avançados. Uma pratica comum com relação a <a href="../glossary/mineracao-glossary.html">mineração</a> na Ethereum é a criação de Rigs de Mineração, um conjunto de várias <a href="../glossary/graphical-processing-unit-gpu-glossary.html">GPUs</a> conectadas para obter um alto <a href="../glossary/hash-rate-glossary.html">Hash Rate</a>.
+                        </p><br> 
+                 
+                        
+                        <p class="article-text">
+                            <span class="detailSpan">>></span> <b>Há duas formas de mineração: a mineração individual ou as pools de mineração.</b>  <span class="detailSpan"> &lt&lt </span> <br><br>
+                        </p><br> 
+
+                        <p class="article-text">
+                           <b>Mineração Individual:</b> <a href="../glossary/mineradores-glossary.html">Mineradores</a> trabalham sozinho encontrar blocos corretos, caso obtenham sucesso a <a href="../glossary/block-reward-glossary.html">recompensa</a> fica somente para ele.
+                        </p><br>
+
+                        <p class="article-text">
+                            <b>Pools de Mineração:</b> Conhecidas como Piscinas de Mineração, sistemas que juntam o Hash Power de diversos usuários para aumentar a chance de encontrar blocos corretos, porém caso tenham sucesso a <a href="../glossary/block-reward-glossary.html">recompensa</a> será dividida entre os membros da Pool.
+                        </p><br>
+
+                        <section class="advertisement">
+                          
+                        </section>
+                        <section class="mobileAdvertisement">
+                           
+                        </section>
+
+                        <h2 class="article-header" id="comoRodarUmNodeDaEthereum">Como rodar um Node da Ethereum?</h2>
+                        <p class="article-text">
+                            Um dos pontos fortes das <a href="../glossary/blockchain-glossary.html">Blockchains</a> é o fácil acesso. Isso quer dizer que qualquer pessoa pode rodar <a href="../glossary/node-glossary.html">Nodes</a> da Ethereum e começar a validar blocos e transações.
+                        </p><br> 
+
+                        <p class="article-text">
+                            Assim como o <a href="./bitcoin-discover.html">Bitcoin</a>, existem diversas empresas que oferecem sistemas prontos para serem executados de nodes da Ethereum. Caso deseje ter fácil acesso a nodes essa pode ser a melhor opção, porém essas empresas geralmente cobram taxas por esses serviços.
+                        </p><br> 
+
+                        <p class="article-text">
+                            A Ethereum possui diversos softwares para rodar nodes, podemos usar como exemplo os mencionados anteriormente, Geth e o Parity. Caso deseje rodar seu próprio node é importante se familiarizar com o setup de cada software.
+                        </p><br> 
+
+                        <p class="article-text">
+                            Praticamente qualquer máquina é capaz de rodar Full Nodes, porém não é recomendado usar a sua máquina do dia-a-dia, já que pode torná-la lenta. Rodar seus próprios <a href="../glossary/node-glossary.html">nodes</a> é mais recomendado em máquinas que permanecerão ligadas o tempo todo, pois caso seu node fique offline, após ligar, pode levar um tempo considerável para sincronizar com a rede.
+                        </p><br> 
+
+                        <h2 class="article-header" id="comoMinerarNaEthereum">Como minerar na Ethereum?</h2>
+                        <p class="article-text">
+                            Com a chegada do Ethereum 2.0 a Ethereum irá migrar de <a href="../glossary/proof-of-work-pow-glossary.html">Proof of Work</a> para <a href="../glossary/proof-of-stake-pos-glossary.html">Proof of Stake</a>, pensando nisso, investir em mineração na Ethereum pode não ser a melhor escolha para o longo-prazo. Com a mudança, <a href="../glossary/mineradores-glossary.html">mineradores</a> terão que migrar para outra rede ou vender seus equipamentos.
+                        </p><br> 
+
+                        <p class="article-text">
+                            Mas caso ainda tenha intenções de participar da mineração será necessário hardwares específicos como <a href="../glossary/graphical-processing-unit-gpu-glossary.html">GPUs</a> ou máquinas <a href="../glossary/application-specific-integrated-circuit-asic-glossary.html">ASIC</a>. Caso deseje ter retornos significantes, criar uma Rig de mineração e ter acesso a eletricidade de baixo custo é uma boa opção. Será preciso também registrar uma <a href="../glossary/wallet-glossary.html">wallet</a> da Ethereum e configurar seu software de mineração. Minerar na Ethereum demanda tempo e investimento, então se deve analisar se segue viável participar como minerador.
+                        </p><br> 
+
+                        <h2 class="article-header" id="quemDesenvolveOSoftwareDaEthereum">Quem desenvolve o software da Ethereum?</h2>
+                        <p class="article-text">
+                            Assim como o Bitcoin, a Ethereum é um sistema <a href="../glossary/open-source-software-glossary.html">open-source</a>, ou seja, qualquer um pode participar no desenvolvimento do protocolo, ou criar aplicações descentralizadas que serão executadas sob a rede da Ethereum. Por ser a maior criptomoeda de primeira camada (Tirando o Bitcoin) também possui a maior comunidade de desenvolvedores quando se trata de <a href="../glossary/blockchain-glossary.html">blockchain</a>.
+                        </p><br> 
+
+                        <h2 class="article-header" id="oQueESolidity">O que é solidity?</h2>
+                        <p class="article-text">
+                            <a href="../glossary/smart-contracts-glossary.html">Smart Contracts</a> já existem a um bom tempo, mas ao aplicar o conceito em <a href="../glossary/blockchain-glossary.html">Blockchain</a>, as possibilidades se expandiram. 
+                        </p><br> 
+
+                        <p class="article-text">
+                            Em 2014, Gavin Wood desenvolveu a <a href="../glossary/solidity-glossary.html">Solidity</a>, uma linguagem de programação que futuramente se tornaria a principal linguagem para o desenvolvimento de <a href="../glossary/smart-contracts-glossary.html">Smart Contracts</a> na Ethereum. Sua sintaxe lembra muito as linguagens já existente no mercado como, Java, JavaScript e C++.
+                        </p><br> 
+
+                        <p class="article-text">
+                            Solidity tem o papel de possibilitar desenvolvedores a criarem códigos que podem ser interpretados como instruções pela <a href="../glossary/ethereum-virtual-machine-evm-glossary.html">Ethereum Virtual Machine (EVM)</a>. Solidity tem dominância entre as linguagens para desenvolvimento de Smart Contracts, mas não é a única, outro exemplo muito popular é a Vyper, uma linguagem na qual sua sintaxe lembra a Python.
+                        </p><br> 
+
+                </article>
+
+            </div>
+
+            <div class="more-content-background">
+                <div class="more-content">
+                    <a class="guide-content" href="../discover/polkadot-discover.html">
+                        <div class="guide-content-box">
+                            <div class="guide-content-box-img"> 
+                                <img class="box-img" src="../../../images/DOTLogo.png" alt="DOTLogo">
+                            </div>
+                            
+                            <div class="guide-content-box-name">
+                                <p class="box-text"> Polkadot</p>
+                            </div>
+
+                            <div class="guide-content-box-detail"> 
+
+                                <div class="guide-content-box-detail-tag">
+                                    <p class="tag1">Blockchain</p>
+                                    <p class="tag1">26/05/2022</p>
+                                </div>
+
+                                <div class="guide-content-box-detail-info">
+                                    <p class="info1">6m</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="guide-content" href="../discover/solana-discover.html">
+                        <div class="guide-content-box">
+                            <div class="guide-content-box-img"> 
+                                <img class="box-img" src="../../../images/SOLLogo.png" alt="SOLLogo">
+                            </div>
+                            
+                            <div class="guide-content-box-name">
+                                <p class="box-text">Solana</p>
+                            </div>
+
+                            <div class="guide-content-box-detail"> 
+
+                                <div class="guide-content-box-detail-tag">
+                                    <p class="tag1">Blockchain</p>
+                                    <p class="tag1">07/06/2022</p>
+                                </div>
+
+                                <div class="guide-content-box-detail-info">
+                                    <p class="info1">7m</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="guide-content" href="../discover/avalanche-discover.html">
+                        <div class="guide-content-box">
+                            <div class="guide-content-box-img"> 
+                                <img class="box-img" src="../../../images/AVAXLogo.png" alt="AVAXLogo">
+                            </div>
+                            
+                            <div class="guide-content-box-name">
+                                <p class="box-text">Avalanche</p>
+                            </div>
+
+                            <div class="guide-content-box-detail"> 
+
+                                <div class="guide-content-box-detail-tag">
+                                    <p class="tag1">Blockchain</p>
+                                    <p class="tag1">22/05/2022</p>
+                                </div>
+
+                                <div class="guide-content-box-detail-info">
+                                    <p class="info1">8m</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <a href="../../academy.html"><div class="explore-all-content"> Explore todos os conteúdos >>></div></a>
+
+        <section class="advertisement">
+        
+        </section>
+
+        <section class="mobileAdvertisement">
+          
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="footerContainer">
+            <div class="footerRow">
+                <div class="footerCol">
+                    <h4><img src="../../../images/PICLogo.png" alt="PIC Logo"> Crypto PIC</h4>
+                    <ul>
+                        <li><a href="../../footer/sobre-nos.html"><b>Sobre Nós</b></a></li>
+                        <li><a href="../../footer/servicos.html"><b>Serviços</b></a></li>
+                        <li><a href="../../footer/politica-de-privacidade.html"><b>Política de Privacidade</b></a></li>
+                    </ul>
+                </div>
+    
+                <div class="footerCol">
+                    <h4>Conteúdos</h4>
+                    <ul>
+                        <li><a href="../../coins.html"><b>Criptomoedas</b></a></li>
+                        <li><a href="../../academy.html"><b>Academy</b></a></li>
+                        <li><a href="../../academy/glossary.html"><b>Glossary</b></a></li>
+                        <li><a href="../../news.html"><b>Notícias</b></a></li>
+                    </ul>
+                </div>
+    
+                <div class="footerCol">
+                    <h4>Comunidade</h4>
+                    <div class="footerSocialLinks">
+                        <ul>
+                            <li><a href="https://twitter.com/Crypto_PIC_"><img class="twitterLogo" src="../../../images/twitterLogo.png" alt=""><b>Twitter</b></a></li>
+    
+                            <li><a href="https://www.instagram.com/crypto_pic_/"><img class="instagramLogo" src="../../../images/InstagramIcon.jpg" alt=""><b>Instagram</b></a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+   

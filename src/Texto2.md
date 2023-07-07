@@ -1,0 +1,418 @@
+BitcoinGlossary
+
+- Bitcoin == 
+- Bitcoin ATM == 
+- Bitcoin Pizza == 
+- Fork == 
+- Halving ==
+- Hard Fork ==
+- Proof of Work == 
+- Satoshi == 
+- Satoshi Nakamoto == 
+- Segregated Witness == 
+- SHA-256 == 
+- Soft Fork ==
+
+BlockchainGlossary
+- Airdrop ==
+- Altcoins ==
+- Altcoins Season ==
+- Aplicação Decentralizada DApp ==
+- Atomic Swap ==
+- Beta (LANÇAMENTO) ==
+- Bitcoin ==
+- Bitcoin ATM ==
+- Bitcoin Pizza ==
+- Bloco ==
+- Bloco Genesis ==
+- Blockchain == 
+- Block Explorer == 
+- Block Header ==
+- Block Height ==
+- Block Reward ==
+- Centralizado ==
+- Chave Privada == 
+- Cloud Mining ==
+- Cold Wallet ==
+- Consenso ==
+- Criptografia ==
+- Criptomoedas ==
+- Decentralized autonomous organization DAO ==
+- DPOS ==
+- Descentralizado ==
+- Dificuldade ==
+- Dominancia do bitcoin
+- Emissão ==
+- Endereço ==
+- Endereços ativos diarios ==
+- EEA ==
+- ERC-20 ==
+- ERC-721 ==
+- Escalabilidade ==
+- Ethereum ==
+- Ethereum Difficulty Bomb ==
+- Ethereum Plasma ==
+- EVM ==
+- Faucet ==
+- Fork ==
+- Gas ==
+- Gas Limit ==
+- Gas Price ==
+- Gasto Duplo ==
+- Gwei ==
+- Halving ==
+- Hard Fork ==
+- Hash ==
+- Hash Rate ==
+- Interoperabilidade ==
+- InterPlanetary FileSystem ==
+- Jager ==
+- Lightning Network ==
+- Liquid Proof of Stake ==
+- Mainnet == 
+- Memory Pool
+- Merkle Tree
+- Metaverso
+- Mineração
+- Mineradores
+- Multi-assinatura
+- NFT
+- Node
+- Nonce
+- Off-chain
+- Open Source Software
+- Oracle
+- Paper Wallet
+- Polkadot Crowdloan
+- Proof of Attendance
+- Proof of Authority
+- Proof of Burn
+- Proof of Stake
+- Proof of Work
+- Proposta de melhoria do ethereum
+- Protocolo
+- Queima de Tokens
+- Roadmap
+- Rollup
+- Rollup Block
+- Rug Pull
+- Satoshi
+- Satoshi Nakamoto
+- Seed phrase
+- Segregated Witness
+- SHA-256
+- Shitcoin ==
+- Side chain ==
+- Smart Contracts ==
+- Soft Fork
+- Solidity
+- Soluções de segunda camada ==
+- Stablecoins ==
+- Staking ==
+- Swap ==
+- Taxa de Transação ==
+- Testnet
+- Ticker
+- Tokens
+- Token de Utilidade
+- Transações por segundo
+- TXID
+- Trustless
+- Unspent
+- Validador
+- Wallet
+- Wei
+- Web3
+- Whitelist
+- Yield Farming
+- Zero-knowledge
+
+BusinessGlossary
+
+- Airdrop
+- Alpha
+- AMA
+- Anti-Money Laundering (AML)
+- Auction
+- Banco Central
+- Benchmark
+- Beta (LANÇAMENTO)
+- Bounty
+- Capital de Risco
+- Centralizado
+- Crowdsale
+- EEA
+- Escalabilidade
+- ELI5
+- ICO
+- IEO
+- IPO
+- Investidor Anjo
+- KYC
+- Livro-razão
+- p2p
+- Portfolio
+- Pre-venda
+- Roadmap
+- SEC
+- Soft cap
+- Startup
+- Vantagem absoluta
+- Venda Privada
+- Watchlist
+- Whitelist
+
+ComputersGlossary
+
+- Algoritmo
+- Alpha
+- API
+- ASIC
+- ASIC RESISTENTE
+- Assincrono
+- Ataque de 51%
+- Bots
+- Central Processing Unit
+- Deep Web
+- DAG
+- DDOS
+- Dusting Attack
+- Full node
+- Graphical Processing Unit (gpu)
+- Hacker
+- Hash
+- Hash Rate
+- Internet of Things (IOT)
+- Malware
+- Metadados
+- Open Source Software
+- Phishing
+- QR Code
+- Ransomware
+- Superficie de ataque
+- Testnet
+- Turing-Complete
+- Two-Factor
+- UI
+- Web3
+
+DeFiGlossary
+- DAO
+- Decentralized Exchange
+- DeFi
+- DPOS 
+- Descentralizado
+- Faucet
+- Oracle
+- Staking
+- Swap
+- Total value Locked
+- Yield Farming
+
+EconomiaGlossary
+
+- Alocação
+- Alta Histórica (ATH)
+- Análise Fundamentalista
+- Anti-Money Laundering (AML)
+- Arbitragem
+- Ask
+- Baixa Histórica (ATL)
+- Baleia
+- Banco Central
+- Bandas de bollinger
+- Bear Market
+- Bearish
+- Beta (Coeficiente)
+- Bid
+- Bid ask spread
+- Bolha das criptomoedas
+- Break EVEN
+- Bull Market
+- Bullish
+- Candlestick
+- Capital de Risco
+- Circulating Supply
+- Confluência
+- Consumer Price INDex CPI
+- Contratos Futuros
+- Criptomoedas 
+- Custodia
+- Dead Cat Bounce
+- Derivativos
+- Divergencia
+- Diversificação
+- Dollar Cost Averaging (DCA)
+- Dominancia do bitcoin
+- Dump
+- Esquema Ponzi
+- ETF
+- Exchange
+- FOMO
+- FUD
+- flappening
+- flippening
+- Forex
+- Fully Dillued Market Cap
+- Garantia
+- Gestao ativa
+- Gestao de ativos
+- Golden Cross
+- Hard Cap
+- High Frequency Trading
+- Hipotese do mercado eficiente
+- HODL
+- Indice
+- ICO
+- IEO
+- IPO
+- Investidor Anjo
+- Know Your Costumer
+- Lei da Oferta e Demanda
+- Liquidação forçada
+- Liquidez
+- Livro-razão
+- Margem Isolada
+- Market Capitalization
+- Market Maker
+- Market Taker
+- Max Supply
+- Mercado de derivativos
+- Moeda fiduciaria
+- Moeda Lastreada
+- OCO/OCOI
+- Open/Close Price
+- Ordem a mercado
+- Ordem iceberg
+- Ordem Limite
+- Ordem Tudo ou nada
+- Politicas Monetarias
+- Portfolio
+- Preço Medio
+- Pre-venda
+- Price Action
+- Pump and Dump
+- RSI
+- Reserva de Valor
+- Resistencia
+- ROI
+- Rompimento
+- Rug Pull
+- SEC
+- Sell Wall
+- Sharpe Ratio
+- Soft cap
+- Stop Loss
+- Suporte
+- Tendencia
+- Ticker
+- Tokens
+- Total value Locked
+- Trading de Margem
+- Vantagem absoluta
+- Venda Privada
+- Volatilidade
+- Volume
+
+EthereumGlossary
+
+- EEA
+- ERC-20
+- ERC-721
+- Ethereum
+- Ethereum Difficulty Bomb
+- Ethereum Plasma
+- Fork
+- Gas
+- Gas Limit
+- Gas Price
+- Gwei
+- Hard Fork
+- Proof of Stake
+- Proposta de melhoria do ethereum
+- Rollup
+- Rollup Block
+- Soft Fork
+- Solidity
+- Wei
+
+HackingGlossary
+
+- Ataque de 51%
+- Bots
+- Deep Web
+- DDOS
+- Dusting Attack
+- Gasto Duplo
+- Hacker
+- Malware
+- Phishing
+- Ransomware
+- Superficie de ataque
+
+NFTGlossary
+
+- ERC-721
+- Metaverso
+- NFT
+
+
+TermsGlossary
+
+- Baleia 
+- ELI5
+- FOMO
+- FUD
+- flappening
+- Flippening
+- HODL
+- Know Your Costumer
+- Lua
+- Maos Fracas
+- p2p
+- Rekt
+
+TradingGlossary
+
+- Alta Histórica (ATH)
+- Arbitragem
+- Ask
+- Baixa Histórica (ATL)
+- Bandas de bollinger
+- Bear Market
+- Bearish
+- Bid
+- Bid ask spread
+- Break EVEN
+- Bull Market
+- Bullish
+- Candlestick
+- Confluência
+- Dead Cat Bounce
+- Divergencia
+- Dump
+- Forex
+- Golden Cross
+- High Frequency Trading
+- Liquidação forçada
+- Market Maker
+- Market Taker
+- OCO/OCOI
+- Open/Close Price
+- Ordem a mercado
+- Ordem iceberg
+- Ordem Limite
+- Ordem Tudo ou nada
+- Order Book
+- Preço Medio
+- Price Action
+- Pump and Dump
+- RSI
+- Resistencia
+- Rompimento
+- Stop Loss
+- Suporte
+- Tendencia
+- Trading de Margem
+- Volatilidade
+- Volume
